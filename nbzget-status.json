@@ -1,0 +1,53 @@
+{
+    "version": "1.1",
+    "id": "4e5d9b86",
+    "result": {
+        "RemainingSizeLo": 0,
+        "RemainingSizeHi": 0,
+        "RemainingSizeMB": 0,
+        "ForcedSizeLo": 0,
+        "ForcedSizeHi": 0,
+        "ForcedSizeMB": 0,
+        "DownloadedSizeLo": 4200706301,
+        "DownloadedSizeHi": 5,
+        "DownloadedSizeMB": 24486,
+        "MonthSizeLo": 162291158,
+        "MonthSizeHi": 60,
+        "MonthSizeMB": 245914,
+        "DaySizeLo": 0,
+        "DaySizeHi": 0,
+        "DaySizeMB": 0,
+        "ArticleCacheLo": 0,
+        "ArticleCacheHi": 0,
+        "ArticleCacheMB": 0,
+        "DownloadRate": 0,
+        "AverageDownloadRate": 1754393,
+        "DownloadLimit": 0,
+        "ThreadCount": 15,
+        "ParJobCount": 0,
+        "PostJobCount": 0,
+        "UrlCount": 0,
+        "UpTimeSec": 337483,
+        "DownloadTimeSec": 14635,
+        "ServerPaused": false,
+        "DownloadPaused": false,
+        "Download2Paused": false,
+        "ServerStandBy": true,
+        "PostPaused": false,
+        "ScanPaused": false,
+        "QuotaReached": false,
+        "FreeDiskSpaceLo": 3881213952,
+        "FreeDiskSpaceHi": 220,
+        "FreeDiskSpaceMB": 904821,
+        "ServerTime": 1708446874,
+        "ResumeTime": 0,
+        "FeedActive": false,
+        "QueueScriptCount": 0,
+        "NewsServers": [
+            {
+                "ID": 1,
+                "Active": true
+            }
+        ]
+    }
+}

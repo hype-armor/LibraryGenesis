@@ -4,6 +4,8 @@ from libgen_api import LibgenSearch
 import os.path
 s = LibgenSearch()
 calibreimportdir = f'P:\media\calibre\import\\'
+readarrdownloaddir = f'P:\media\watch\\'
+from urllib.parse import unquote
 
 """ 
 col_names = [
@@ -131,7 +133,7 @@ def slugify(value, allow_unicode=False):
     underscores, or hyphens. Convert to lowercase. Also strip leading and
     trailing whitespace, dashes, and underscores.
     """
-    value = str(value)
+    value = str(value).replace('%20', ' ')
     if allow_unicode:
         value = unicodedata.normalize('NFKC', value)
     else:
@@ -153,10 +155,25 @@ def download(result):
     ctx = ssl.create_default_context()
     ctx.check_hostname = False
     ctx.verify_mode = ssl.CERT_NONE
+    
+    urifilename = unquote(download_link['GET'].split('/')[-1])
+    if 'Author' not in result:
+        result['Author'] = urifilename.split('-')[0]
+    if 'Title' not in result:
+        result['Title'] = urifilename.split('-')[1].split('.')[0]
+    if 'Year' not in result:
+        if '(' in result:
+            result['Year'] = urifilename.split('(')[1]
+            result['Year'] = result['Year'].split(')')[0]
+        else:
+            result['Year'] = ''
+    if 'Extension' not in result:
+        result['Extension'] = urifilename.split('.')[-1]
 
     #print (result["Author"])
     #print (slugify(result["Author"]))
-    file_path = slugify(result["Author"]) + ' - ' + slugify(result["Title"]) + ' (' + result["Year"] + ').' + result["Extension"]
+    file_path = slugify(result["Author"]) + '-' + slugify(result["Title"]) + ' (' + result["Year"] + ').' + result["Extension"]
+    file_path = readarrdownloaddir + file_path
     if os.path.isfile(file_path): 
         print('Already downloaded.')
         return
@@ -167,13 +184,6 @@ def download(result):
     response = urllib.request.urlopen(download_link['GET'], context=ctx)
     total_size = response.length
 
-    import threading
-    progress = 0
-    def my_func():
-        if progress < 100: 
-            threading.Timer(0.5, my_func).start()
-        print(progress, end='\r')
-    my_func()
     try:
         with open(file_path, 'wb+') as f:
             while True:

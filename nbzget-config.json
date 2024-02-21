@@ -1,0 +1,618 @@
+{
+    "version": "1.1",
+    "id": "7d39413f",
+    "result": [
+        {
+            "Name": "ConfigFile",
+            "Value": "\/config\/nzbget.conf"
+        },
+        {
+            "Name": "AppBin",
+            "Value": "\/app\/nzbget\/nzbget"
+        },
+        {
+            "Name": "AppDir",
+            "Value": "\/app\/nzbget"
+        },
+        {
+            "Name": "Version",
+            "Value": "21.1"
+        },
+        {
+            "Name": "MainDir",
+            "Value": "\/downloads"
+        },
+        {
+            "Name": "WebDir",
+            "Value": "\/app\/nzbget\/webui"
+        },
+        {
+            "Name": "ConfigTemplate",
+            "Value": "\/app\/nzbget\/webui\/nzbget.conf.template"
+        },
+        {
+            "Name": "TempDir",
+            "Value": "\/downloads\/tmp"
+        },
+        {
+            "Name": "DestDir",
+            "Value": "\/downloads\/"
+        },
+        {
+            "Name": "InterDir",
+            "Value": "\/downloads\/incomplete"
+        },
+        {
+            "Name": "QueueDir",
+            "Value": "\/downloads\/queue"
+        },
+        {
+            "Name": "NzbDir",
+            "Value": "\/downloads\/nzb"
+        },
+        {
+            "Name": "LockFile",
+            "Value": "\/downloads\/nzbget.lock"
+        },
+        {
+            "Name": "LogFile",
+            "Value": "\/downloads\/nzbget.log"
+        },
+        {
+            "Name": "ScriptDir",
+            "Value": "\/downloads\/scripts"
+        },
+        {
+            "Name": "RequiredDir",
+            "Value": ""
+        },
+        {
+            "Name": "WriteLog",
+            "Value": "none"
+        },
+        {
+            "Name": "RotateLog",
+            "Value": "1"
+        },
+        {
+            "Name": "AppendCategoryDir",
+            "Value": "yes"
+        },
+        {
+            "Name": "OutputMode",
+            "Value": "loggable"
+        },
+        {
+            "Name": "DupeCheck",
+            "Value": "yes"
+        },
+        {
+            "Name": "DownloadRate",
+            "Value": "0"
+        },
+        {
+            "Name": "ControlIp",
+            "Value": "0.0.0.0"
+        },
+        {
+            "Name": "ControlUsername",
+            "Value": "greg"
+        },
+        {
+            "Name": "ControlPassword",
+            "Value": "comeon"
+        },
+        {
+            "Name": "RestrictedUsername",
+            "Value": ""
+        },
+        {
+            "Name": "RestrictedPassword",
+            "Value": ""
+        },
+        {
+            "Name": "AddUsername",
+            "Value": ""
+        },
+        {
+            "Name": "AddPassword",
+            "Value": ""
+        },
+        {
+            "Name": "ControlPort",
+            "Value": "6789"
+        },
+        {
+            "Name": "FormAuth",
+            "Value": "no"
+        },
+        {
+            "Name": "SecureControl",
+            "Value": "no"
+        },
+        {
+            "Name": "SecurePort",
+            "Value": "6791"
+        },
+        {
+            "Name": "SecureCert",
+            "Value": ""
+        },
+        {
+            "Name": "SecureKey",
+            "Value": ""
+        },
+        {
+            "Name": "CertStore",
+            "Value": "\/app\/nzbget\/cacert.pem"
+        },
+        {
+            "Name": "CertCheck",
+            "Value": "yes"
+        },
+        {
+            "Name": "AuthorizedIP",
+            "Value": "127.0.0.1"
+        },
+        {
+            "Name": "ArticleTimeout",
+            "Value": "60"
+        },
+        {
+            "Name": "UrlTimeout",
+            "Value": "60"
+        },
+        {
+            "Name": "RemoteTimeout",
+            "Value": "90"
+        },
+        {
+            "Name": "FlushQueue",
+            "Value": "yes"
+        },
+        {
+            "Name": "NzbLog",
+            "Value": "no"
+        },
+        {
+            "Name": "RawArticle",
+            "Value": "no"
+        },
+        {
+            "Name": "SkipWrite",
+            "Value": "no"
+        },
+        {
+            "Name": "ArticleRetries",
+            "Value": "3"
+        },
+        {
+            "Name": "ArticleInterval",
+            "Value": "10"
+        },
+        {
+            "Name": "UrlRetries",
+            "Value": "3"
+        },
+        {
+            "Name": "UrlInterval",
+            "Value": "10"
+        },
+        {
+            "Name": "ContinuePartial",
+            "Value": "yes"
+        },
+        {
+            "Name": "UrlConnections",
+            "Value": "4"
+        },
+        {
+            "Name": "LogBuffer",
+            "Value": "1000"
+        },
+        {
+            "Name": "InfoTarget",
+            "Value": "none"
+        },
+        {
+            "Name": "WarningTarget",
+            "Value": "none"
+        },
+        {
+            "Name": "ErrorTarget",
+            "Value": "none"
+        },
+        {
+            "Name": "DebugTarget",
+            "Value": "none"
+        },
+        {
+            "Name": "DetailTarget",
+            "Value": "none"
+        },
+        {
+            "Name": "ParCheck",
+            "Value": "auto"
+        },
+        {
+            "Name": "ParRepair",
+            "Value": "yes"
+        },
+        {
+            "Name": "ParScan",
+            "Value": "extended"
+        },
+        {
+            "Name": "ParQuick",
+            "Value": "yes"
+        },
+        {
+            "Name": "PostStrategy",
+            "Value": "sequential"
+        },
+        {
+            "Name": "FileNaming",
+            "Value": "auto"
+        },
+        {
+            "Name": "ParRename",
+            "Value": "yes"
+        },
+        {
+            "Name": "ParBuffer",
+            "Value": "300"
+        },
+        {
+            "Name": "ParThreads",
+            "Value": "0"
+        },
+        {
+            "Name": "RarRename",
+            "Value": "yes"
+        },
+        {
+            "Name": "HealthCheck",
+            "Value": "park"
+        },
+        {
+            "Name": "DirectRename",
+            "Value": "yes"
+        },
+        {
+            "Name": "ScriptOrder",
+            "Value": ""
+        },
+        {
+            "Name": "Extensions",
+            "Value": ""
+        },
+        {
+            "Name": "DaemonUsername",
+            "Value": "root"
+        },
+        {
+            "Name": "UMask",
+            "Value": "1000"
+        },
+        {
+            "Name": "UpdateInterval",
+            "Value": "200"
+        },
+        {
+            "Name": "CursesNzbName",
+            "Value": "yes"
+        },
+        {
+            "Name": "CursesTime",
+            "Value": "no"
+        },
+        {
+            "Name": "CursesGroup",
+            "Value": "no"
+        },
+        {
+            "Name": "CrcCheck",
+            "Value": "yes"
+        },
+        {
+            "Name": "DirectWrite",
+            "Value": "yes"
+        },
+        {
+            "Name": "WriteBuffer",
+            "Value": "1024"
+        },
+        {
+            "Name": "NzbDirInterval",
+            "Value": "5"
+        },
+        {
+            "Name": "NzbDirFileAge",
+            "Value": "60"
+        },
+        {
+            "Name": "DiskSpace",
+            "Value": "4096"
+        },
+        {
+            "Name": "CrashTrace",
+            "Value": "no"
+        },
+        {
+            "Name": "CrashDump",
+            "Value": "no"
+        },
+        {
+            "Name": "ParPauseQueue",
+            "Value": "no"
+        },
+        {
+            "Name": "ScriptPauseQueue",
+            "Value": "no"
+        },
+        {
+            "Name": "NzbCleanupDisk",
+            "Value": "yes"
+        },
+        {
+            "Name": "ParTimeLimit",
+            "Value": "0"
+        },
+        {
+            "Name": "KeepHistory",
+            "Value": "1"
+        },
+        {
+            "Name": "Unpack",
+            "Value": "yes"
+        },
+        {
+            "Name": "DirectUnpack",
+            "Value": "yes"
+        },
+        {
+            "Name": "UnpackCleanupDisk",
+            "Value": "yes"
+        },
+        {
+            "Name": "UnrarCmd",
+            "Value": "\/app\/nzbget\/unrar"
+        },
+        {
+            "Name": "SevenZipCmd",
+            "Value": "\/app\/nzbget\/7za"
+        },
+        {
+            "Name": "UnpackPassFile",
+            "Value": ""
+        },
+        {
+            "Name": "UnpackPauseQueue",
+            "Value": "yes"
+        },
+        {
+            "Name": "ExtCleanupDisk",
+            "Value": ".par2, .sfv"
+        },
+        {
+            "Name": "ParIgnoreExt",
+            "Value": ".sfv, .nzb, .nfo"
+        },
+        {
+            "Name": "UnpackIgnoreExt",
+            "Value": ".cbr"
+        },
+        {
+            "Name": "FeedHistory",
+            "Value": "0"
+        },
+        {
+            "Name": "UrlForce",
+            "Value": "yes"
+        },
+        {
+            "Name": "TimeCorrection",
+            "Value": "0"
+        },
+        {
+            "Name": "PropagationDelay",
+            "Value": "0"
+        },
+        {
+            "Name": "ArticleCache",
+            "Value": "100"
+        },
+        {
+            "Name": "EventInterval",
+            "Value": "0"
+        },
+        {
+            "Name": "ShellOverride",
+            "Value": ""
+        },
+        {
+            "Name": "MonthlyQuota",
+            "Value": "0"
+        },
+        {
+            "Name": "QuotaStartDay",
+            "Value": "1"
+        },
+        {
+            "Name": "DailyQuota",
+            "Value": "0"
+        },
+        {
+            "Name": "ReorderFiles",
+            "Value": "yes"
+        },
+        {
+            "Name": "UpdateCheck",
+            "Value": "stable"
+        },
+        {
+            "Name": "Server1.Active",
+            "Value": "yes"
+        },
+        {
+            "Name": "Server1.Name",
+            "Value": "usenetserver"
+        },
+        {
+            "Name": "Server1.Level",
+            "Value": "0"
+        },
+        {
+            "Name": "Server1.Optional",
+            "Value": "no"
+        },
+        {
+            "Name": "Server1.Group",
+            "Value": "0"
+        },
+        {
+            "Name": "Server1.Host",
+            "Value": "NEWS.USENETSERVER.COM"
+        },
+        {
+            "Name": "Server1.Port",
+            "Value": "563"
+        },
+        {
+            "Name": "Server1.Username",
+            "Value": "gamm90@gmail.com"
+        },
+        {
+            "Name": "Server1.Password",
+            "Value": "Pz3NJWRXOGb0"
+        },
+        {
+            "Name": "Server1.JoinGroup",
+            "Value": "no"
+        },
+        {
+            "Name": "Server1.Encryption",
+            "Value": "yes"
+        },
+        {
+            "Name": "Server1.Cipher",
+            "Value": ""
+        },
+        {
+            "Name": "Server1.Connections",
+            "Value": "55"
+        },
+        {
+            "Name": "Server1.Retention",
+            "Value": "0"
+        },
+        {
+            "Name": "Server1.IpVersion",
+            "Value": "auto"
+        },
+        {
+            "Name": "Server1.Notes",
+            "Value": ""
+        },
+        {
+            "Name": "Category1.Name",
+            "Value": "Movies"
+        },
+        {
+            "Name": "Category1.DestDir",
+            "Value": "\/downloads\/completed\/movies"
+        },
+        {
+            "Name": "Category1.Unpack",
+            "Value": "yes"
+        },
+        {
+            "Name": "Category1.Extensions",
+            "Value": ""
+        },
+        {
+            "Name": "Category1.Aliases",
+            "Value": ""
+        },
+        {
+            "Name": "Category2.Name",
+            "Value": "Series"
+        },
+        {
+            "Name": "Category3.Name",
+            "Value": "Music"
+        },
+        {
+            "Name": "Category4.Name",
+            "Value": "Software"
+        },
+        {
+            "Name": "Category2.DestDir",
+            "Value": "\/downloads\/completed\/shows"
+        },
+        {
+            "Name": "Category2.Unpack",
+            "Value": "yes"
+        },
+        {
+            "Name": "Category2.Extensions",
+            "Value": ""
+        },
+        {
+            "Name": "Category2.Aliases",
+            "Value": ""
+        },
+        {
+            "Name": "Category3.DestDir",
+            "Value": "\/downloads\/music"
+        },
+        {
+            "Name": "Category3.Unpack",
+            "Value": "yes"
+        },
+        {
+            "Name": "Category3.Extensions",
+            "Value": ""
+        },
+        {
+            "Name": "Category3.Aliases",
+            "Value": ""
+        },
+        {
+            "Name": "Category4.DestDir",
+            "Value": "\/downloads\/completed\/software"
+        },
+        {
+            "Name": "Category4.Unpack",
+            "Value": "yes"
+        },
+        {
+            "Name": "Category4.Extensions",
+            "Value": ""
+        },
+        {
+            "Name": "Category4.Aliases",
+            "Value": ""
+        },
+        {
+            "Name": "Category5.Name",
+            "Value": "Books"
+        },
+        {
+            "Name": "Category5.DestDir",
+            "Value": "\/downloads\/completed\/books"
+        },
+        {
+            "Name": "Category5.Unpack",
+            "Value": "yes"
+        },
+        {
+            "Name": "Category5.Extensions",
+            "Value": ""
+        },
+        {
+            "Name": "Category5.Aliases",
+            "Value": ""
+        }
+    ]
+}
