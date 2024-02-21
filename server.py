@@ -2,6 +2,7 @@
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import json
 from urllib.parse import unquote
+import librarygenesis as LG
 
 hostName = "spaceheater"
 serverPort = 8003
@@ -123,13 +124,18 @@ class MyServer(BaseHTTPRequestHandler):
                 from threading import Thread
                 nbzdatab64 = data['params'][1]
                 nbzdata = base64.b64decode(nbzdatab64)
+                d1 = ET.fromstring(nbzdata)
+                head = ET.fromstring(nbzdata)[0]
+                name2 = head[2].text
+                
+                d3 = ET.fromstring(nbzdata)[1][1]
                 url = ET.fromstring(nbzdata)[1][1][0].text
                 # start download...
                 import nbzget as nbzgetrss
                 nbz = nbzgetrss.nbz()
-                thread = Thread(target = nbz.download, args = ({'Mirror_1' : url},))
-                thread.start()
-                storeddata = json.loads(self.read_sysfile('nbzget-status.json'))
+                nbz.download({'Mirror_1' : url})
+                
+                storeddata = json.loads(self.read_sysfile('nbzget-listgroups.json'))
             else:
                 print(json.dumps(data))
                 

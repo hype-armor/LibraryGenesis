@@ -109,7 +109,15 @@ class rss:
                 #http://192.168.0.141:8003/api?t=get&reallink=http://library.lol/main/F452F3B5B9E8F6E32C9D8603C4E59B99&category=books&name1=title&name2=title2&subject=titlesubject&size=23425616
                 setattr(lgitem, 'newznab_category1', "7000")
                 setattr(lgitem, 'newznab_category2', "7020")
-                setattr(lgitem, 'newznab_size', int(str(lgitem.size).replace(" Mb", "").replace(" Kb", "")) * 1024)
+                # calc size
+                size = 1024
+                if 'Mb' in lgitem.size:
+                    size = int(lgitem.size.replace(' Mb', '')) * 1024 * 1024
+                elif 'Kb' in lgitem.size:
+                    size = int(lgitem.size.replace(' Kb', '')) * 1024
+                elif 'Gb' in lgitem.size:
+                    size = int(lgitem.size.replace(' Gb', '')) * 1024 * 1024 * 1024
+                setattr(lgitem, 'newznab_size', str(size))
                 setattr(lgitem, 'newznab_guid', guid )
                 setattr(lgitem, 'newznab_grabs', 46)
                 setattr(lgitem, 'newznab_usenetdate', date or '')
@@ -177,7 +185,11 @@ class nbz:
         self.dt=datetime.datetime.now()
         
     def download(self, url):
-        LG.download(url)
+        result = LG.result(url)
+        
+        thread = Thread(target = result.download)
+        thread.start()
+        return result.file_name
     
     def get(self):
         xml  = '<?xml version="1.0" encoding="UTF-8"?>\n'
@@ -206,6 +218,8 @@ class nbz:
         #thread = Thread(target = self.download, args = (url,))
         #thread.start()
         return xml
-            
+    
+    def buildlistgroupsjson(self):
+        pass
 #xml = rss('O4Cf3uNQhti09MLGot5XlWAXM37E9nsa', 'search', 'title+author').Get_XML()
 #print (xml)
