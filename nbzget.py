@@ -172,7 +172,8 @@ class rss:
                 r = '<item>' + xtitle + xguid + xlink + xcomments + xpubdate + xcategory
                 r += xdescription + xenclosure_url + xnewznab_category1 + xnewznab_category2
                 r += xnewznab_size + xnewznab_guid + xnewznab_grabs + xnewznab_usenetdate
-                return r + '</item>'
+                r = r.replace(' & ', '&amp;') + '</item>'
+                return r
             
 class nbz:
     def __init__(self, category='', name1='', name2='', subject='', size='', url=''): 
