@@ -1,0 +1,1620 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:newznab="http://www.newznab.com/DTD/2010/feeds/attributes/">
+    <channel>
+        <atom:link href="https://api.nzbgeek.info/api?t=search&amp;cat=3030,7020,8010&amp;extended=1&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa&amp;offset=0&amp;limit=100" rel="self" type="application/rss+xml" />
+        <title>api.nzbgeek.info</title>
+        <description>NZBgeek API</description>
+        <link>http://api.nzbgeek.info/</link>
+        <language>en-gb</language>
+        <webMaster>info@nzbgeek.info (NZBgeek)</webMaster>
+        <category></category>
+        <image>
+            <url>https://api.nzbgeek.info/covers/nzbgeek.png</url>
+            <title>api.nzbgeek.info</title>
+            <link>http://api.nzbgeek.info/</link>
+            <description>NZBgeek</description>
+        </image>
+        <newznab:response offset="0" total="2422741" />
+        <item>
+            <title>WinRAR 6.01 - Download for PC Free)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=7feca67f1b7156ed492ca4baf69999b0</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=7feca67f1b7156ed492ca4baf69999b0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=7feca67f1b7156ed492ca4baf69999b0</comments>
+            <pubDate>Mon, 19 Feb 2024 14:35:51 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>WinRAR 6.01 - Download for PC Free)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=7feca67f1b7156ed492ca4baf69999b0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1453450000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="1453450000"/>
+            <newznab:attr name="guid" value="7feca67f1b7156ed492ca4baf69999b0"/>
+            <newznab:attr name="password" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 14:35:51 +0000"/>
+        </item>
+        <item>
+            <title>Adobe Illustrator 2024 v28.1.0.141 (x64) Pre Multilingual</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=c8475caa7013965b69ff49df2591e72e</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=c8475caa7013965b69ff49df2591e72e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=c8475caa7013965b69ff49df2591e72e</comments>
+            <pubDate>Mon, 19 Feb 2024 14:23:00 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>Adobe Illustrator 2024 v28.1.0.141 (x64) Pre Multilingual</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=c8475caa7013965b69ff49df2591e72e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="3763574000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="3763574000"/>
+            <newznab:attr name="guid" value="c8475caa7013965b69ff49df2591e72e"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 14:23:00 +0000"/>
+        </item>
+        <item>
+            <title>My Name Is Barbra</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=fedba9ab8c904d6c266e156c8920da22</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=fedba9ab8c904d6c266e156c8920da22&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=fedba9ab8c904d6c266e156c8920da22</comments>
+            <pubDate>Mon, 19 Feb 2024 13:49:48 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>My Name Is Barbra</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=fedba9ab8c904d6c266e156c8920da22&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1490050000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="1490050000"/>
+            <newznab:attr name="guid" value="fedba9ab8c904d6c266e156c8920da22"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 13:49:48 +0000"/>
+        </item>
+        <item>
+            <title>Twochubbycubs.The.Cookbook .100.Tried.and.Tested.Slimming.Recipes</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=3fda77166a7871b32f47daddaa410276</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=3fda77166a7871b32f47daddaa410276&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=3fda77166a7871b32f47daddaa410276</comments>
+            <pubDate>Mon, 19 Feb 2024 13:48:17 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Twochubbycubs.The.Cookbook .100.Tried.and.Tested.Slimming.Recipes</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=3fda77166a7871b32f47daddaa410276&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="44419000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="44419000"/>
+            <newznab:attr name="guid" value="3fda77166a7871b32f47daddaa410276"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 13:48:17 +0000"/>
+        </item>
+        <item>
+            <title>VMware Workstation PRO 15.0 + Serials</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=b8515890c9f8f755340c32bf0efb4a72</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=b8515890c9f8f755340c32bf0efb4a72&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=b8515890c9f8f755340c32bf0efb4a72</comments>
+            <pubDate>Mon, 19 Feb 2024 13:43:03 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>VMware Workstation PRO 15.0 + Serials</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=b8515890c9f8f755340c32bf0efb4a72&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="503754000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="503754000"/>
+            <newznab:attr name="guid" value="b8515890c9f8f755340c32bf0efb4a72"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 13:43:03 +0000"/>
+        </item>
+        <item>
+            <title>AutoCAD 2022 v30.1.51 (x64) (Portable)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=ba33227d88352ad03ef9066a1ef82dcb</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=ba33227d88352ad03ef9066a1ef82dcb&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=ba33227d88352ad03ef9066a1ef82dcb</comments>
+            <pubDate>Mon, 19 Feb 2024 13:39:14 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>AutoCAD 2022 v30.1.51 (x64) (Portable)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=ba33227d88352ad03ef9066a1ef82dcb&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1928048000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="1928048000"/>
+            <newznab:attr name="guid" value="ba33227d88352ad03ef9066a1ef82dcb"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 13:39:14 +0000"/>
+        </item>
+        <item>
+            <title>WinRAR 6.01 - Download for PC Free)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=42faf6c552665b4d131552bc8665013f</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=42faf6c552665b4d131552bc8665013f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=42faf6c552665b4d131552bc8665013f</comments>
+            <pubDate>Mon, 19 Feb 2024 13:37:53 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>WinRAR 6.01 - Download for PC Free)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=42faf6c552665b4d131552bc8665013f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="848482000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="848482000"/>
+            <newznab:attr name="guid" value="42faf6c552665b4d131552bc8665013f"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 13:37:53 +0000"/>
+        </item>
+        <item>
+            <title>M.C.Beaton-Death.Of.Yesterday.A.Hamish.Macbeth.Mystery.28.2013.RETAIL.EPUB.eBook-CTO</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=d8e805b9dce19e5e53fd99f944cefd2c</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=d8e805b9dce19e5e53fd99f944cefd2c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=d8e805b9dce19e5e53fd99f944cefd2c</comments>
+            <pubDate>Mon, 19 Feb 2024 13:37:47 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>M.C.Beaton-Death.Of.Yesterday.A.Hamish.Macbeth.Mystery.28.2013.RETAIL.EPUB.eBook-CTO</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=d8e805b9dce19e5e53fd99f944cefd2c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2416000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2416000"/>
+            <newznab:attr name="guid" value="d8e805b9dce19e5e53fd99f944cefd2c"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 13:37:47 +0000"/>
+        </item>
+        <item>
+            <title>Adobe InDesign 2024 v19.0.1.205 (x64) Multilingual</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=ffed9d15497e2247d54a94e545d6cd2d</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=ffed9d15497e2247d54a94e545d6cd2d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=ffed9d15497e2247d54a94e545d6cd2d</comments>
+            <pubDate>Mon, 19 Feb 2024 13:31:58 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>Adobe InDesign 2024 v19.0.1.205 (x64) Multilingual</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=ffed9d15497e2247d54a94e545d6cd2d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1478796000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="1478796000"/>
+            <newznab:attr name="guid" value="ffed9d15497e2247d54a94e545d6cd2d"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 13:31:58 +0000"/>
+        </item>
+        <item>
+            <title>Adobe Acrobat Pro DC 2023.008.20458 (x64) Multilingual</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=f3cbad2f05d3d75da14225d98d6ecd8c</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=f3cbad2f05d3d75da14225d98d6ecd8c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=f3cbad2f05d3d75da14225d98d6ecd8c</comments>
+            <pubDate>Mon, 19 Feb 2024 13:27:59 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>Adobe Acrobat Pro DC 2023.008.20458 (x64) Multilingual</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=f3cbad2f05d3d75da14225d98d6ecd8c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1453419000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="1453419000"/>
+            <newznab:attr name="guid" value="f3cbad2f05d3d75da14225d98d6ecd8c"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 13:27:59 +0000"/>
+        </item>
+        <item>
+            <title>The.Taken.Casey.Kelleher</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=9f9b2db25d2ac372f3e935d47fe3ceeb</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=9f9b2db25d2ac372f3e935d47fe3ceeb&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=9f9b2db25d2ac372f3e935d47fe3ceeb</comments>
+            <pubDate>Mon, 19 Feb 2024 13:18:13 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>The.Taken.Casey.Kelleher</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=9f9b2db25d2ac372f3e935d47fe3ceeb&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="4141000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="4141000"/>
+            <newznab:attr name="guid" value="9f9b2db25d2ac372f3e935d47fe3ceeb"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 13:18:13 +0000"/>
+        </item>
+        <item>
+            <title>Rickstad.Eric-The.Silent.Girls</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=d1be815f645fc60ad1d9f911ce23d1ee</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=d1be815f645fc60ad1d9f911ce23d1ee&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=d1be815f645fc60ad1d9f911ce23d1ee</comments>
+            <pubDate>Mon, 19 Feb 2024 13:18:05 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Rickstad.Eric-The.Silent.Girls</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=d1be815f645fc60ad1d9f911ce23d1ee&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="6147000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="6147000"/>
+            <newznab:attr name="guid" value="d1be815f645fc60ad1d9f911ce23d1ee"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 13:18:05 +0000"/>
+        </item>
+        <item>
+            <title>The.Wolf.of.Corwick.Castle</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=6394cf0d7713966d05221e19830b536c</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=6394cf0d7713966d05221e19830b536c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=6394cf0d7713966d05221e19830b536c</comments>
+            <pubDate>Mon, 19 Feb 2024 12:42:14 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>The.Wolf.of.Corwick.Castle</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=6394cf0d7713966d05221e19830b536c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="39291000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="39291000"/>
+            <newznab:attr name="guid" value="6394cf0d7713966d05221e19830b536c"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:42:14 +0000"/>
+        </item>
+        <item>
+            <title>Pignorant.2024.720p.AMZN.WEB-DL.DDP2.0.H.264-FLUX</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=8f784e3cf6154199f649ac71bd596cd5</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=8f784e3cf6154199f649ac71bd596cd5&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=8f784e3cf6154199f649ac71bd596cd5</comments>
+            <pubDate>Mon, 19 Feb 2024 12:33:08 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>Pignorant.2024.720p.AMZN.WEB-DL.DDP2.0.H.264-FLUX</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=8f784e3cf6154199f649ac71bd596cd5&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="3720532000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="3720532000"/>
+            <newznab:attr name="guid" value="8f784e3cf6154199f649ac71bd596cd5"/>
+            <newznab:attr name="language" value="English"/>
+            <newznab:attr name="subs " value="English"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:33:08 +0000"/>
+        </item>
+        <item>
+            <title>He.Who.Fights.with.Monsters.10.[B0C1PV6Q7C]</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=11c83a5a36eec5c13d3c065f08ff8497</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=11c83a5a36eec5c13d3c065f08ff8497&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=11c83a5a36eec5c13d3c065f08ff8497</comments>
+            <pubDate>Mon, 19 Feb 2024 12:28:56 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>He.Who.Fights.with.Monsters.10.[B0C1PV6Q7C]</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=11c83a5a36eec5c13d3c065f08ff8497&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1594572000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="1594572000"/>
+            <newznab:attr name="guid" value="11c83a5a36eec5c13d3c065f08ff8497"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:28:56 +0000"/>
+        </item>
+        <item>
+            <title>10x.Is.Easier.than.2x</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=a38108182e4fa77987a4f96f141fd625</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=a38108182e4fa77987a4f96f141fd625&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=a38108182e4fa77987a4f96f141fd625</comments>
+            <pubDate>Mon, 19 Feb 2024 12:27:36 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>10x.Is.Easier.than.2x</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=a38108182e4fa77987a4f96f141fd625&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="627539000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="627539000"/>
+            <newznab:attr name="guid" value="a38108182e4fa77987a4f96f141fd625"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:27:36 +0000"/>
+        </item>
+        <item>
+            <title>Dead.of.Night.Audiobook</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=8a3a940efc2c59be90ed2fd3e91f6353</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=8a3a940efc2c59be90ed2fd3e91f6353&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=8a3a940efc2c59be90ed2fd3e91f6353</comments>
+            <pubDate>Mon, 19 Feb 2024 12:27:01 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>Dead.of.Night.Audiobook</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=8a3a940efc2c59be90ed2fd3e91f6353&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="359721000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="359721000"/>
+            <newznab:attr name="guid" value="8a3a940efc2c59be90ed2fd3e91f6353"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:27:01 +0000"/>
+        </item>
+        <item>
+            <title>James.Patterson-Alex.Cross.30-Alex.Cross.Must.Die.2023</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=6ef87957aa2960fbcf691cc131e701ee</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=6ef87957aa2960fbcf691cc131e701ee&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=6ef87957aa2960fbcf691cc131e701ee</comments>
+            <pubDate>Mon, 19 Feb 2024 12:25:20 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>James.Patterson-Alex.Cross.30-Alex.Cross.Must.Die.2023</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=6ef87957aa2960fbcf691cc131e701ee&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="283995000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="283995000"/>
+            <newznab:attr name="guid" value="6ef87957aa2960fbcf691cc131e701ee"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:25:20 +0000"/>
+        </item>
+        <item>
+            <title>Sarah.JMaas-Crescent.City</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=3547df97ba92df8300e6371af6e1bc71</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=3547df97ba92df8300e6371af6e1bc71&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=3547df97ba92df8300e6371af6e1bc71</comments>
+            <pubDate>Mon, 19 Feb 2024 12:24:58 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>Sarah.JMaas-Crescent.City</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=3547df97ba92df8300e6371af6e1bc71&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="3061663000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="3061663000"/>
+            <newznab:attr name="guid" value="3547df97ba92df8300e6371af6e1bc71"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:24:58 +0000"/>
+        </item>
+        <item>
+            <title>Mitch.Albom-The.Little.Liar.2023</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=628a56caffa52761293083bf2db86fef</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=628a56caffa52761293083bf2db86fef&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=628a56caffa52761293083bf2db86fef</comments>
+            <pubDate>Mon, 19 Feb 2024 12:21:34 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>Mitch.Albom-The.Little.Liar.2023</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=628a56caffa52761293083bf2db86fef&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="491195000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="491195000"/>
+            <newznab:attr name="guid" value="628a56caffa52761293083bf2db86fef"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:21:34 +0000"/>
+        </item>
+        <item>
+            <title>Nuclear.Dawn.The.Post-Apocalyptic.Box.Set</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=4b4f0eae253e01aa612b003509c71814</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=4b4f0eae253e01aa612b003509c71814&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=4b4f0eae253e01aa612b003509c71814</comments>
+            <pubDate>Mon, 19 Feb 2024 12:20:21 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>Nuclear.Dawn.The.Post-Apocalyptic.Box.Set</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=4b4f0eae253e01aa612b003509c71814&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1184569000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="1184569000"/>
+            <newznab:attr name="guid" value="4b4f0eae253e01aa612b003509c71814"/>
+            <newznab:attr name="grabs" value="2"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:20:21 +0000"/>
+        </item>
+        <item>
+            <title>60.Songs.That.Explain.The.90s.A</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=2d0152e3cdf2d136041167827c2228c8</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=2d0152e3cdf2d136041167827c2228c8&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=2d0152e3cdf2d136041167827c2228c8</comments>
+            <pubDate>Mon, 19 Feb 2024 12:19:06 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>60.Songs.That.Explain.The.90s.A</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=2d0152e3cdf2d136041167827c2228c8&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="302423000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="302423000"/>
+            <newznab:attr name="guid" value="2d0152e3cdf2d136041167827c2228c8"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:19:06 +0000"/>
+        </item>
+        <item>
+            <title>Behind.the.Lens .My.Life</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=e372246f92ba3b49ec1ef077a2ca0a7f</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=e372246f92ba3b49ec1ef077a2ca0a7f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=e372246f92ba3b49ec1ef077a2ca0a7f</comments>
+            <pubDate>Mon, 19 Feb 2024 12:18:48 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Behind.the.Lens .My.Life</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=e372246f92ba3b49ec1ef077a2ca0a7f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="482327000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="482327000"/>
+            <newznab:attr name="guid" value="e372246f92ba3b49ec1ef077a2ca0a7f"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:18:48 +0000"/>
+        </item>
+        <item>
+            <title>[Australian.Army.Campaigns.10].David.W.Cameron-The.August.Offensive-.At.ANZAC.1915.azw3.epub.mobi</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=9cb4498efa206a03f44dec181ce3dcc3</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=9cb4498efa206a03f44dec181ce3dcc3&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=9cb4498efa206a03f44dec181ce3dcc3</comments>
+            <pubDate>Mon, 19 Feb 2024 12:18:25 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>[Australian.Army.Campaigns.10].David.W.Cameron-The.August.Offensive-.At.ANZAC.1915.azw3.epub.mobi</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=9cb4498efa206a03f44dec181ce3dcc3&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="19637000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="19637000"/>
+            <newznab:attr name="guid" value="9cb4498efa206a03f44dec181ce3dcc3"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:18:25 +0000"/>
+        </item>
+        <item>
+            <title>Jim.Sciutto-The.Shadow.War-.Inside.Russias.and.Chinas.Secret.Operations.to.Defeat.America.azw3.epub.mobi</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=ead16c1463c41bd9ef57abcaec950368</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=ead16c1463c41bd9ef57abcaec950368&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=ead16c1463c41bd9ef57abcaec950368</comments>
+            <pubDate>Mon, 19 Feb 2024 12:18:19 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Jim.Sciutto-The.Shadow.War-.Inside.Russias.and.Chinas.Secret.Operations.to.Defeat.America.azw3.epub.mobi</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=ead16c1463c41bd9ef57abcaec950368&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="4843000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="4843000"/>
+            <newznab:attr name="guid" value="ead16c1463c41bd9ef57abcaec950368"/>
+            <newznab:attr name="grabs" value="9"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:18:19 +0000"/>
+        </item>
+        <item>
+            <title>Jean.Plaidy-[Catherine.de.Medici.01-03].azw3.epub.mobi</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=61634975ae884334d6f58a3bd5f6fe49</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=61634975ae884334d6f58a3bd5f6fe49&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=61634975ae884334d6f58a3bd5f6fe49</comments>
+            <pubDate>Mon, 19 Feb 2024 12:18:13 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Jean.Plaidy-[Catherine.de.Medici.01-03].azw3.epub.mobi</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=61634975ae884334d6f58a3bd5f6fe49&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="7189000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="7189000"/>
+            <newznab:attr name="guid" value="61634975ae884334d6f58a3bd5f6fe49"/>
+            <newznab:attr name="grabs" value="5"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:18:13 +0000"/>
+        </item>
+        <item>
+            <title>WinRAR 6.01 - Download for PC Free)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=8739d85288d50da0712fcd7cd11b39f5</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=8739d85288d50da0712fcd7cd11b39f5&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=8739d85288d50da0712fcd7cd11b39f5</comments>
+            <pubDate>Mon, 19 Feb 2024 12:12:57 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>WinRAR 6.01 - Download for PC Free)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=8739d85288d50da0712fcd7cd11b39f5&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2509880000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="2509880000"/>
+            <newznab:attr name="guid" value="8739d85288d50da0712fcd7cd11b39f5"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:12:57 +0000"/>
+        </item>
+        <item>
+            <title>MiniTool Power Data Recovery 8.1 Personal Standard + Serial New</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=e3ad0b5f20b4b28720a26639e1377dff</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=e3ad0b5f20b4b28720a26639e1377dff&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=e3ad0b5f20b4b28720a26639e1377dff</comments>
+            <pubDate>Mon, 19 Feb 2024 12:08:03 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>MiniTool Power Data Recovery 8.1 Personal Standard + Serial New</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=e3ad0b5f20b4b28720a26639e1377dff&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="44545000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="44545000"/>
+            <newznab:attr name="guid" value="e3ad0b5f20b4b28720a26639e1377dff"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 12:08:03 +0000"/>
+        </item>
+        <item>
+            <title>- P-N02D170834287739mYX240219BoU</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=81471eac023398a10322867bc5d114d9</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=81471eac023398a10322867bc5d114d9&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=81471eac023398a10322867bc5d114d9</comments>
+            <pubDate>Mon, 19 Feb 2024 11:42:59 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>- P-N02D170834287739mYX240219BoU</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=81471eac023398a10322867bc5d114d9&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="64678000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="64678000"/>
+            <newznab:attr name="guid" value="81471eac023398a10322867bc5d114d9"/>
+            <newznab:attr name="grabs" value="4"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:42:59 +0000"/>
+        </item>
+        <item>
+            <title>- RN02GH1708342823wv4mV240219LORENZ</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=4ec8025f218e393ef2c535c1f84cff7b</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=4ec8025f218e393ef2c535c1f84cff7b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=4ec8025f218e393ef2c535c1f84cff7b</comments>
+            <pubDate>Mon, 19 Feb 2024 11:42:06 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>- RN02GH1708342823wv4mV240219LORENZ</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=4ec8025f218e393ef2c535c1f84cff7b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="138228000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="138228000"/>
+            <newznab:attr name="guid" value="4ec8025f218e393ef2c535c1f84cff7b"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:42:06 +0000"/>
+        </item>
+        <item>
+            <title>- M-v1021708342724Mv7Wt240219BoU</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=b71bd7c076e8ffcf06859526667aebca</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=b71bd7c076e8ffcf06859526667aebca&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=b71bd7c076e8ffcf06859526667aebca</comments>
+            <pubDate>Mon, 19 Feb 2024 11:39:37 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>- M-v1021708342724Mv7Wt240219BoU</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=b71bd7c076e8ffcf06859526667aebca&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="36091000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="36091000"/>
+            <newznab:attr name="guid" value="b71bd7c076e8ffcf06859526667aebca"/>
+            <newznab:attr name="grabs" value="4"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:39:37 +0000"/>
+        </item>
+        <item>
+            <title>CyberLink PowerDirector Ultimate 2024 v22.1.1.2601.0</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=c55711703ea62c33ddbc32e4f8ccc249</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=c55711703ea62c33ddbc32e4f8ccc249&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=c55711703ea62c33ddbc32e4f8ccc249</comments>
+            <pubDate>Mon, 19 Feb 2024 11:37:52 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>CyberLink PowerDirector Ultimate 2024 v22.1.1.2601.0</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=c55711703ea62c33ddbc32e4f8ccc249&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="848471000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="848471000"/>
+            <newznab:attr name="guid" value="c55711703ea62c33ddbc32e4f8ccc249"/>
+            <newznab:attr name="grabs" value="1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:37:52 +0000"/>
+        </item>
+        <item>
+            <title>- FmH-N017083424599Xgxo240219BoU</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=bfca5c66202f2c193e8ab85e22077901</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=bfca5c66202f2c193e8ab85e22077901&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=bfca5c66202f2c193e8ab85e22077901</comments>
+            <pubDate>Mon, 19 Feb 2024 11:35:32 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>- FmH-N017083424599Xgxo240219BoU</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=bfca5c66202f2c193e8ab85e22077901&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="66902000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="66902000"/>
+            <newznab:attr name="guid" value="bfca5c66202f2c193e8ab85e22077901"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:35:32 +0000"/>
+        </item>
+        <item>
+            <title>- DA-N0217083424374oitR240219BoU</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=9bc215db92ea6f773f37d67d712f35bd</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=9bc215db92ea6f773f37d67d712f35bd&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=9bc215db92ea6f773f37d67d712f35bd</comments>
+            <pubDate>Mon, 19 Feb 2024 11:34:55 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>- DA-N0217083424374oitR240219BoU</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=9bc215db92ea6f773f37d67d712f35bd&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="33232000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="33232000"/>
+            <newznab:attr name="guid" value="9bc215db92ea6f773f37d67d712f35bd"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:34:55 +0000"/>
+        </item>
+        <item>
+            <title>- 1KDMP1708342226C3rTb240219BoU</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=fcb008a1f8d2387cffdfde5d4dde986b</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=fcb008a1f8d2387cffdfde5d4dde986b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=fcb008a1f8d2387cffdfde5d4dde986b</comments>
+            <pubDate>Mon, 19 Feb 2024 11:32:01 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>- 1KDMP1708342226C3rTb240219BoU</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=fcb008a1f8d2387cffdfde5d4dde986b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="15598000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="15598000"/>
+            <newznab:attr name="guid" value="fcb008a1f8d2387cffdfde5d4dde986b"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:32:01 +0000"/>
+        </item>
+        <item>
+            <title>- 1ODMP1708342203zJ9cK240219BoU</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=aa5f6430915bead77ed509105c5e006b</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=aa5f6430915bead77ed509105c5e006b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=aa5f6430915bead77ed509105c5e006b</comments>
+            <pubDate>Mon, 19 Feb 2024 11:31:09 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>- 1ODMP1708342203zJ9cK240219BoU</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=aa5f6430915bead77ed509105c5e006b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="38059000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="38059000"/>
+            <newznab:attr name="guid" value="aa5f6430915bead77ed509105c5e006b"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:31:09 +0000"/>
+        </item>
+        <item>
+            <title>- B-HN2N1708341831m9VeN240219BoU</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=b6118a4b50a37e90984aea1b5355cdf1</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=b6118a4b50a37e90984aea1b5355cdf1&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=b6118a4b50a37e90984aea1b5355cdf1</comments>
+            <pubDate>Mon, 19 Feb 2024 11:25:29 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>- B-HN2N1708341831m9VeN240219BoU</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=b6118a4b50a37e90984aea1b5355cdf1&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="18237000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="18237000"/>
+            <newznab:attr name="guid" value="b6118a4b50a37e90984aea1b5355cdf1"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:25:29 +0000"/>
+        </item>
+        <item>
+            <title>- WsH-N01708341729Myoc3240219BoU</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=a6b9ba18efc373c618301a8c9af84c97</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=a6b9ba18efc373c618301a8c9af84c97&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=a6b9ba18efc373c618301a8c9af84c97</comments>
+            <pubDate>Mon, 19 Feb 2024 11:23:44 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>- WsH-N01708341729Myoc3240219BoU</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=a6b9ba18efc373c618301a8c9af84c97&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="102244000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="102244000"/>
+            <newznab:attr name="guid" value="a6b9ba18efc373c618301a8c9af84c97"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:23:44 +0000"/>
+        </item>
+        <item>
+            <title>- Vfm-N017083416409prYv240219BoU</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=c8932c30d9ebe9021376e4b26270722e</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=c8932c30d9ebe9021376e4b26270722e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=c8932c30d9ebe9021376e4b26270722e</comments>
+            <pubDate>Mon, 19 Feb 2024 11:21:00 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>- Vfm-N017083416409prYv240219BoU</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=c8932c30d9ebe9021376e4b26270722e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="36986000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="36986000"/>
+            <newznab:attr name="guid" value="c8932c30d9ebe9021376e4b26270722e"/>
+            <newznab:attr name="grabs" value="4"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 11:21:00 +0000"/>
+        </item>
+        <item>
+            <title>IObit Malware Fighter 11 PRO</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=eca689f13313f578fd59be21c71ea120</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=eca689f13313f578fd59be21c71ea120&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=eca689f13313f578fd59be21c71ea120</comments>
+            <pubDate>Mon, 19 Feb 2024 10:26:09 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>IObit Malware Fighter 11 PRO</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=eca689f13313f578fd59be21c71ea120&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="120709000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="120709000"/>
+            <newznab:attr name="guid" value="eca689f13313f578fd59be21c71ea120"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 10:26:09 +0000"/>
+        </item>
+        <item>
+            <title>IObit Malware Fighter 10 PRO - IObit Advanced SystemCare Multilingual</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=fb5408a6a6d584af05aeae3bebcfe8ed</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=fb5408a6a6d584af05aeae3bebcfe8ed&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=fb5408a6a6d584af05aeae3bebcfe8ed</comments>
+            <pubDate>Mon, 19 Feb 2024 10:25:38 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>IObit Malware Fighter 10 PRO - IObit Advanced SystemCare Multilingual</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=fb5408a6a6d584af05aeae3bebcfe8ed&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="120693000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="120693000"/>
+            <newznab:attr name="guid" value="fb5408a6a6d584af05aeae3bebcfe8ed"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 10:25:38 +0000"/>
+        </item>
+        <item>
+            <title>F ck.No.by.Sarah.Knight</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=2c5d6c0566ec253d5e7908c4007fa5d7</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=2c5d6c0566ec253d5e7908c4007fa5d7&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=2c5d6c0566ec253d5e7908c4007fa5d7</comments>
+            <pubDate>Mon, 19 Feb 2024 10:07:48 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>F ck.No.by.Sarah.Knight</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=2c5d6c0566ec253d5e7908c4007fa5d7&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="180111000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="180111000"/>
+            <newznab:attr name="guid" value="2c5d6c0566ec253d5e7908c4007fa5d7"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 10:07:48 +0000"/>
+        </item>
+        <item>
+            <title>The.Man.from.the.Train</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=cdd606de006d3b8522fcefbdfcdd613c</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=cdd606de006d3b8522fcefbdfcdd613c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=cdd606de006d3b8522fcefbdfcdd613c</comments>
+            <pubDate>Mon, 19 Feb 2024 08:29:26 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>The.Man.from.the.Train</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=cdd606de006d3b8522fcefbdfcdd613c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="544085000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="544085000"/>
+            <newznab:attr name="guid" value="cdd606de006d3b8522fcefbdfcdd613c"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 08:29:26 +0000"/>
+        </item>
+        <item>
+            <title>The.Blinding.Knife</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=4d4f778a7b11f5df08c9e0aeeb6ae19b</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=4d4f778a7b11f5df08c9e0aeeb6ae19b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=4d4f778a7b11f5df08c9e0aeeb6ae19b</comments>
+            <pubDate>Mon, 19 Feb 2024 03:07:49 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>The.Blinding.Knife</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=4d4f778a7b11f5df08c9e0aeeb6ae19b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="762609000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="762609000"/>
+            <newznab:attr name="guid" value="4d4f778a7b11f5df08c9e0aeeb6ae19b"/>
+            <newznab:attr name="grabs" value="2"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 03:07:49 +0000"/>
+        </item>
+        <item>
+            <title>Medusa.Uploaded</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=2c8e6a3a0602c804e732a3c19838837f</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=2c8e6a3a0602c804e732a3c19838837f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=2c8e6a3a0602c804e732a3c19838837f</comments>
+            <pubDate>Mon, 19 Feb 2024 03:04:26 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>Medusa.Uploaded</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=2c8e6a3a0602c804e732a3c19838837f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="411542000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="411542000"/>
+            <newznab:attr name="guid" value="2c8e6a3a0602c804e732a3c19838837f"/>
+            <newznab:attr name="grabs" value="2"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 03:04:26 +0000"/>
+        </item>
+        <item>
+            <title>Third.Eye</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=8c00939c74aef4e03563caa9b1d83542</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=8c00939c74aef4e03563caa9b1d83542&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=8c00939c74aef4e03563caa9b1d83542</comments>
+            <pubDate>Mon, 19 Feb 2024 03:04:05 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>Third.Eye</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=8c00939c74aef4e03563caa9b1d83542&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="438817000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="438817000"/>
+            <newznab:attr name="guid" value="8c00939c74aef4e03563caa9b1d83542"/>
+            <newznab:attr name="grabs" value="2"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 03:04:05 +0000"/>
+        </item>
+        <item>
+            <title>David.McCullough-John.Adams-Copy</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=1b9e5e1045f5173a710498d9be7b020d</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=1b9e5e1045f5173a710498d9be7b020d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=1b9e5e1045f5173a710498d9be7b020d</comments>
+            <pubDate>Mon, 19 Feb 2024 03:03:41 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>David.McCullough-John.Adams-Copy</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=1b9e5e1045f5173a710498d9be7b020d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="944512000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="944512000"/>
+            <newznab:attr name="guid" value="1b9e5e1045f5173a710498d9be7b020d"/>
+            <newznab:attr name="grabs" value="112"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 03:03:41 +0000"/>
+        </item>
+        <item>
+            <title>The.Riftwar.Saga</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=7f589fc3a9f8d817e0b6c42066e09449</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=7f589fc3a9f8d817e0b6c42066e09449&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=7f589fc3a9f8d817e0b6c42066e09449</comments>
+            <pubDate>Mon, 19 Feb 2024 03:01:16 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>The.Riftwar.Saga</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=7f589fc3a9f8d817e0b6c42066e09449&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2334474000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="2334474000"/>
+            <newznab:attr name="guid" value="7f589fc3a9f8d817e0b6c42066e09449"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 03:01:16 +0000"/>
+        </item>
+        <item>
+            <title>Raising.Men-Lessons.Navy.SEALs.Learned.from.Their.Training.and.Taught.to.Their.Sons-Copy</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=8ac782d58dc980e86c1e4879701a766c</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=8ac782d58dc980e86c1e4879701a766c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=8ac782d58dc980e86c1e4879701a766c</comments>
+            <pubDate>Mon, 19 Feb 2024 02:58:30 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>Raising.Men-Lessons.Navy.SEALs.Learned.from.Their.Training.and.Taught.to.Their.Sons-Copy</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=8ac782d58dc980e86c1e4879701a766c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="211075000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="211075000"/>
+            <newznab:attr name="guid" value="8ac782d58dc980e86c1e4879701a766c"/>
+            <newznab:attr name="grabs" value="2"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 02:58:30 +0000"/>
+        </item>
+        <item>
+            <title>Gav.Thorpe-The.Wolftime.Dawn.of.Fire.Warhammer.40000.Book.3</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=2037d258b14cd4a2c4ffdcd8f6e43725</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=2037d258b14cd4a2c4ffdcd8f6e43725&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=2037d258b14cd4a2c4ffdcd8f6e43725</comments>
+            <pubDate>Mon, 19 Feb 2024 02:58:12 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>Gav.Thorpe-The.Wolftime.Dawn.of.Fire.Warhammer.40000.Book.3</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=2037d258b14cd4a2c4ffdcd8f6e43725&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="947687000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="947687000"/>
+            <newznab:attr name="guid" value="2037d258b14cd4a2c4ffdcd8f6e43725"/>
+            <newznab:attr name="grabs" value="9"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 02:58:12 +0000"/>
+        </item>
+        <item>
+            <title>Shades.of.Grey.series</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=4724f2d030f5b7ebb12d196ee986a207</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=4724f2d030f5b7ebb12d196ee986a207&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=4724f2d030f5b7ebb12d196ee986a207</comments>
+            <pubDate>Mon, 19 Feb 2024 02:57:18 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Shades.of.Grey.series</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=4724f2d030f5b7ebb12d196ee986a207&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="10379000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="10379000"/>
+            <newznab:attr name="guid" value="4724f2d030f5b7ebb12d196ee986a207"/>
+            <newznab:attr name="grabs" value="7"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 02:57:18 +0000"/>
+        </item>
+        <item>
+            <title>SYSTEMology .Create.time.reduce.errors.and.scale.your.profits.with.proven.business.systems</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=1a2010d4512222de4e215b5d3a0c17f5</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=1a2010d4512222de4e215b5d3a0c17f5&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=1a2010d4512222de4e215b5d3a0c17f5</comments>
+            <pubDate>Mon, 19 Feb 2024 02:57:12 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>SYSTEMology .Create.time.reduce.errors.and.scale.your.profits.with.proven.business.systems</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=1a2010d4512222de4e215b5d3a0c17f5&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="7548000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="7548000"/>
+            <newznab:attr name="guid" value="1a2010d4512222de4e215b5d3a0c17f5"/>
+            <newznab:attr name="grabs" value="2"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 02:57:12 +0000"/>
+        </item>
+        <item>
+            <title>The Alpha.14.-17</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=2cf248c66a6d0cca2ccf328e4061e6b1</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=2cf248c66a6d0cca2ccf328e4061e6b1&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=2cf248c66a6d0cca2ccf328e4061e6b1</comments>
+            <pubDate>Mon, 19 Feb 2024 02:57:06 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>The Alpha.14.-17</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=2cf248c66a6d0cca2ccf328e4061e6b1&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="22681000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="22681000"/>
+            <newznab:attr name="guid" value="2cf248c66a6d0cca2ccf328e4061e6b1"/>
+            <newznab:attr name="grabs" value="2"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 02:57:06 +0000"/>
+        </item>
+        <item>
+            <title>Howey.Hugh-Beacon</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=36ca5dc1fd6452f5582fcbb3921ba29b</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=36ca5dc1fd6452f5582fcbb3921ba29b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=36ca5dc1fd6452f5582fcbb3921ba29b</comments>
+            <pubDate>Mon, 19 Feb 2024 02:56:59 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Howey.Hugh-Beacon</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=36ca5dc1fd6452f5582fcbb3921ba29b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="4880000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="4880000"/>
+            <newznab:attr name="guid" value="36ca5dc1fd6452f5582fcbb3921ba29b"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 02:56:59 +0000"/>
+        </item>
+        <item>
+            <title>Ben.Goldfarb-Eager-.The.Surprising.Secret.Life.of.Beavers.and.Why.They.Matter.azw3.epub.mobi</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=7cc31dbbdd711a3338e3e615ee9061a6</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=7cc31dbbdd711a3338e3e615ee9061a6&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=7cc31dbbdd711a3338e3e615ee9061a6</comments>
+            <pubDate>Mon, 19 Feb 2024 02:56:52 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Ben.Goldfarb-Eager-.The.Surprising.Secret.Life.of.Beavers.and.Why.They.Matter.azw3.epub.mobi</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=7cc31dbbdd711a3338e3e615ee9061a6&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="13989000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="13989000"/>
+            <newznab:attr name="guid" value="7cc31dbbdd711a3338e3e615ee9061a6"/>
+            <newznab:attr name="grabs" value="14"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 02:56:52 +0000"/>
+        </item>
+        <item>
+            <title>Mike.Kraus.Pack</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=c2e9f0dda92835dbe173b11b17bb56de</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=c2e9f0dda92835dbe173b11b17bb56de&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=c2e9f0dda92835dbe173b11b17bb56de</comments>
+            <pubDate>Mon, 19 Feb 2024 02:56:46 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Mike.Kraus.Pack</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=c2e9f0dda92835dbe173b11b17bb56de&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="261877000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="261877000"/>
+            <newznab:attr name="guid" value="c2e9f0dda92835dbe173b11b17bb56de"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="usenetdate" value="Mon, 19 Feb 2024 02:56:46 +0000"/>
+        </item>
+        <item>
+            <title>Caplin, Julie - De kleine baai in Kroati-GP-EB-NL</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=564840b634285b93580927dff6c44419</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=564840b634285b93580927dff6c44419&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=564840b634285b93580927dff6c44419</comments>
+            <pubDate>Sun, 18 Feb 2024 20:31:03 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Caplin, Julie - De kleine baai in Kroati-GP-EB-NL</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=564840b634285b93580927dff6c44419&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="735000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="735000"/>
+            <newznab:attr name="guid" value="564840b634285b93580927dff6c44419"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="password" value="-1"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 20:31:03 +0000"/>
+        </item>
+        <item>
+            <title>Raechel.Anne.Jolie-Rust.Belt.Femme.2020.RETAIL.EPUB.eBook-CTO</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=3afc6434d73d83276af372b94a6a0275</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=3afc6434d73d83276af372b94a6a0275&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=3afc6434d73d83276af372b94a6a0275</comments>
+            <pubDate>Sun, 18 Feb 2024 19:53:56 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Raechel.Anne.Jolie-Rust.Belt.Femme.2020.RETAIL.EPUB.eBook-CTO</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=3afc6434d73d83276af372b94a6a0275&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="3088000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="3088000"/>
+            <newznab:attr name="guid" value="3afc6434d73d83276af372b94a6a0275"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:53:56 +0000"/>
+        </item>
+        <item>
+            <title>Natalie.Haynes-The.Children.Of.Jocasta.2018.RETAIL.EPUB.eBook-CTO</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=8e7c89ad90db877021733537de05ec7b</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=8e7c89ad90db877021733537de05ec7b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=8e7c89ad90db877021733537de05ec7b</comments>
+            <pubDate>Sun, 18 Feb 2024 19:53:50 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Natalie.Haynes-The.Children.Of.Jocasta.2018.RETAIL.EPUB.eBook-CTO</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=8e7c89ad90db877021733537de05ec7b&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2300000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2300000"/>
+            <newznab:attr name="guid" value="8e7c89ad90db877021733537de05ec7b"/>
+            <newznab:attr name="grabs" value="152"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:53:50 +0000"/>
+        </item>
+        <item>
+            <title>Natalie.Haynes-The.Furies.A.Novel.2014.RETAIL.EPUB.eBook-CTO</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=792022218c7ffd887c936164463836b9</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=792022218c7ffd887c936164463836b9&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=792022218c7ffd887c936164463836b9</comments>
+            <pubDate>Sun, 18 Feb 2024 19:53:43 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Natalie.Haynes-The.Furies.A.Novel.2014.RETAIL.EPUB.eBook-CTO</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=792022218c7ffd887c936164463836b9&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1512000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1512000"/>
+            <newznab:attr name="guid" value="792022218c7ffd887c936164463836b9"/>
+            <newznab:attr name="grabs" value="79"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:53:43 +0000"/>
+        </item>
+        <item>
+            <title>Ransom.Riggs-Peregrine.06.The.Desolations.of.Devils.Acre.-</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=4c474c304ae409e7aaecb99fedf481bc</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=4c474c304ae409e7aaecb99fedf481bc&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=4c474c304ae409e7aaecb99fedf481bc</comments>
+            <pubDate>Sun, 18 Feb 2024 19:48:25 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>Ransom.Riggs-Peregrine.06.The.Desolations.of.Devils.Acre.-</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=4c474c304ae409e7aaecb99fedf481bc&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="509771000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="509771000"/>
+            <newznab:attr name="guid" value="4c474c304ae409e7aaecb99fedf481bc"/>
+            <newznab:attr name="grabs" value="191"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:48:25 +0000"/>
+        </item>
+        <item>
+            <title>Yoshiki Tanaka - [Legend of the Galactic Heroes 10] - Sunset Matt Treyvaud (transl) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=a0cce67885e1782c8f71b47ae0f01d4e</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=a0cce67885e1782c8f71b47ae0f01d4e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=a0cce67885e1782c8f71b47ae0f01d4e</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:26 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Yoshiki Tanaka - [Legend of the Galactic Heroes 10] - Sunset Matt Treyvaud (transl) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=a0cce67885e1782c8f71b47ae0f01d4e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="598000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="598000"/>
+            <newznab:attr name="guid" value="a0cce67885e1782c8f71b47ae0f01d4e"/>
+            <newznab:attr name="grabs" value="8"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:26 +0000"/>
+        </item>
+        <item>
+            <title>Yoshiki Tanaka - [Legend of the Galactic Heroes 09] - Upheaval Matt Treyvaud (transl) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=15087958f2d0e727b96f51cfa5cb90da</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=15087958f2d0e727b96f51cfa5cb90da&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=15087958f2d0e727b96f51cfa5cb90da</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:22 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Yoshiki Tanaka - [Legend of the Galactic Heroes 09] - Upheaval Matt Treyvaud (transl) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=15087958f2d0e727b96f51cfa5cb90da&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1271000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1271000"/>
+            <newznab:attr name="guid" value="15087958f2d0e727b96f51cfa5cb90da"/>
+            <newznab:attr name="grabs" value="8"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:22 +0000"/>
+        </item>
+        <item>
+            <title>Yoshiki Tanaka - [Legend of the Galactic Heroes 07] - Tempest Daniel Huddleston</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=a5979e9178aecd15fdc884e498ac60ed</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=a5979e9178aecd15fdc884e498ac60ed&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=a5979e9178aecd15fdc884e498ac60ed</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:21 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Yoshiki Tanaka - [Legend of the Galactic Heroes 07] - Tempest Daniel Huddleston</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=a5979e9178aecd15fdc884e498ac60ed&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1394000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1394000"/>
+            <newznab:attr name="guid" value="a5979e9178aecd15fdc884e498ac60ed"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:21 +0000"/>
+        </item>
+        <item>
+            <title>William Walling - No One Goes There Now (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=91b89c8f3756dccb5c11409f3cd0a9f0</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=91b89c8f3756dccb5c11409f3cd0a9f0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=91b89c8f3756dccb5c11409f3cd0a9f0</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:18 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>William Walling - No One Goes There Now (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=91b89c8f3756dccb5c11409f3cd0a9f0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2560000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2560000"/>
+            <newznab:attr name="guid" value="91b89c8f3756dccb5c11409f3cd0a9f0"/>
+            <newznab:attr name="grabs" value="8"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:18 +0000"/>
+        </item>
+        <item>
+            <title>William Walling - Short Stories (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=9faabb2fd93190db8ae3aacf0a348c0d</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=9faabb2fd93190db8ae3aacf0a348c0d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=9faabb2fd93190db8ae3aacf0a348c0d</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:18 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>William Walling - Short Stories (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=9faabb2fd93190db8ae3aacf0a348c0d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="3165000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="3165000"/>
+            <newznab:attr name="guid" value="9faabb2fd93190db8ae3aacf0a348c0d"/>
+            <newznab:attr name="grabs" value="9"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:18 +0000"/>
+        </item>
+        <item>
+            <title>William Rollo - The Big Wheel</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=159674ad6f20e8391ec6452e447aef22</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=159674ad6f20e8391ec6452e447aef22&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=159674ad6f20e8391ec6452e447aef22</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:15 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>William Rollo - The Big Wheel</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=159674ad6f20e8391ec6452e447aef22&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="546000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="546000"/>
+            <newznab:attr name="guid" value="159674ad6f20e8391ec6452e447aef22"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:15 +0000"/>
+        </item>
+        <item>
+            <title>Walter M Miller Jr - The Darfsteller (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=2f42cdb3a39072d597f8047a489c836e</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=2f42cdb3a39072d597f8047a489c836e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=2f42cdb3a39072d597f8047a489c836e</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:13 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Walter M Miller Jr - The Darfsteller (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=2f42cdb3a39072d597f8047a489c836e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2690000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2690000"/>
+            <newznab:attr name="guid" value="2f42cdb3a39072d597f8047a489c836e"/>
+            <newznab:attr name="grabs" value="10"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:13 +0000"/>
+        </item>
+        <item>
+            <title>Walter M Miller Jr - The Complete Short Fiction of Walter M Miller Jr (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=aed2f82507ea83fb6e7b4a906a1efc4e</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=aed2f82507ea83fb6e7b4a906a1efc4e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=aed2f82507ea83fb6e7b4a906a1efc4e</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:13 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Walter M Miller Jr - The Complete Short Fiction of Walter M Miller Jr (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=aed2f82507ea83fb6e7b4a906a1efc4e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1338000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1338000"/>
+            <newznab:attr name="guid" value="aed2f82507ea83fb6e7b4a906a1efc4e"/>
+            <newznab:attr name="grabs" value="9"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:13 +0000"/>
+        </item>
+        <item>
+            <title>Tim Severin - The Jason Voyage</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=52597aa753c9b9a6027a7a034278fe6e</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=52597aa753c9b9a6027a7a034278fe6e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=52597aa753c9b9a6027a7a034278fe6e</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:11 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Tim Severin - The Jason Voyage</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=52597aa753c9b9a6027a7a034278fe6e&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1593000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1593000"/>
+            <newznab:attr name="guid" value="52597aa753c9b9a6027a7a034278fe6e"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:11 +0000"/>
+        </item>
+        <item>
+            <title>Vern Dermott - Planet Finders (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=447bde52d7008767bb2638a2b7d55494</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=447bde52d7008767bb2638a2b7d55494&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=447bde52d7008767bb2638a2b7d55494</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:11 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Vern Dermott - Planet Finders (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=447bde52d7008767bb2638a2b7d55494&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="704000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="704000"/>
+            <newznab:attr name="guid" value="447bde52d7008767bb2638a2b7d55494"/>
+            <newznab:attr name="grabs" value="8"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:11 +0000"/>
+        </item>
+        <item>
+            <title>Valerios - [Road to Mastery 02] - Road to Mastery 2 (azw3)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=9f2fa859fef90d3f837cca8811f81a69</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=9f2fa859fef90d3f837cca8811f81a69&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=9f2fa859fef90d3f837cca8811f81a69</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:11 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Valerios - [Road to Mastery 02] - Road to Mastery 2 (azw3)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=9f2fa859fef90d3f837cca8811f81a69&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2205000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2205000"/>
+            <newznab:attr name="guid" value="9f2fa859fef90d3f837cca8811f81a69"/>
+            <newznab:attr name="grabs" value="8"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:11 +0000"/>
+        </item>
+        <item>
+            <title>Tim Powers - My Brothers Keeper (retail) (mobi)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=5269f0c47ad7a39fcab02ccd99b15366</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=5269f0c47ad7a39fcab02ccd99b15366&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=5269f0c47ad7a39fcab02ccd99b15366</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:09 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Tim Powers - My Brothers Keeper (retail) (mobi)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=5269f0c47ad7a39fcab02ccd99b15366&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1117000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1117000"/>
+            <newznab:attr name="guid" value="5269f0c47ad7a39fcab02ccd99b15366"/>
+            <newznab:attr name="grabs" value="11"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:09 +0000"/>
+        </item>
+        <item>
+            <title>Thomas A Easton - [Organic Future 05] - Seeds of Destiny (html)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=5c97708455bfced3408053ac54cf5e6f</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=5c97708455bfced3408053ac54cf5e6f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=5c97708455bfced3408053ac54cf5e6f</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:08 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Thomas A Easton - [Organic Future 05] - Seeds of Destiny (html)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=5c97708455bfced3408053ac54cf5e6f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="618000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="618000"/>
+            <newznab:attr name="guid" value="5c97708455bfced3408053ac54cf5e6f"/>
+            <newznab:attr name="grabs" value="7"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:08 +0000"/>
+        </item>
+        <item>
+            <title>Thomas Calvert McClary - 3 Thousand Years</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=d79136788aa0127af31ca96987a378a0</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=d79136788aa0127af31ca96987a378a0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=d79136788aa0127af31ca96987a378a0</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:08 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Thomas Calvert McClary - 3 Thousand Years</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=d79136788aa0127af31ca96987a378a0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="599000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="599000"/>
+            <newznab:attr name="guid" value="d79136788aa0127af31ca96987a378a0"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:08 +0000"/>
+        </item>
+        <item>
+            <title>Theodore R Cogswell - The Wall Around the World</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=8f9192d9128f8efe0c94d0c2ccc0b198</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=8f9192d9128f8efe0c94d0c2ccc0b198&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=8f9192d9128f8efe0c94d0c2ccc0b198</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:07 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Theodore R Cogswell - The Wall Around the World</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=8f9192d9128f8efe0c94d0c2ccc0b198&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1031000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1031000"/>
+            <newznab:attr name="guid" value="8f9192d9128f8efe0c94d0c2ccc0b198"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:07 +0000"/>
+        </item>
+        <item>
+            <title>Theodore Sturgeon - Saucer of Loneliness (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=f084cf99b6bc181e8c8599ff7d662700</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=f084cf99b6bc181e8c8599ff7d662700&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=f084cf99b6bc181e8c8599ff7d662700</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:07 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Theodore Sturgeon - Saucer of Loneliness (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=f084cf99b6bc181e8c8599ff7d662700&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="983000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="983000"/>
+            <newznab:attr name="guid" value="f084cf99b6bc181e8c8599ff7d662700"/>
+            <newznab:attr name="grabs" value="308"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:07 +0000"/>
+        </item>
+        <item>
+            <title>The 4400 - [4400 02] - Wet Work Dayton Ward &amp;amp;amp; Kevin Dilmore</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=1c6a30fc735365c58a727beb140594bc</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=1c6a30fc735365c58a727beb140594bc&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=1c6a30fc735365c58a727beb140594bc</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:06 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>The 4400 - [4400 02] - Wet Work Dayton Ward &amp;amp;amp; Kevin Dilmore</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=1c6a30fc735365c58a727beb140594bc&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="857000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="857000"/>
+            <newznab:attr name="guid" value="1c6a30fc735365c58a727beb140594bc"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:06 +0000"/>
+        </item>
+        <item>
+            <title>Terry Pratchett - [Discworld 26] - Thief of Time</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=736649e10c5eeabc1c9c4807207d9984</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=736649e10c5eeabc1c9c4807207d9984&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=736649e10c5eeabc1c9c4807207d9984</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:05 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Terry Pratchett - [Discworld 26] - Thief of Time</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=736649e10c5eeabc1c9c4807207d9984&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="557000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="557000"/>
+            <newznab:attr name="guid" value="736649e10c5eeabc1c9c4807207d9984"/>
+            <newznab:attr name="grabs" value="10"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:05 +0000"/>
+        </item>
+        <item>
+            <title>Terry Pratchett - [Discworld 28] - The Amazing Maurice and His Educated Rodents</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=f9a43626c804626ff9af67d51df0d002</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=f9a43626c804626ff9af67d51df0d002&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=f9a43626c804626ff9af67d51df0d002</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:04 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Terry Pratchett - [Discworld 28] - The Amazing Maurice and His Educated Rodents</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=f9a43626c804626ff9af67d51df0d002&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1250000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1250000"/>
+            <newznab:attr name="guid" value="f9a43626c804626ff9af67d51df0d002"/>
+            <newznab:attr name="grabs" value="9"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:04 +0000"/>
+        </item>
+        <item>
+            <title>Terry Pratchett - [Discworld 25] - The Truth (retail) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=a38dffeb6e9f4ab5eaffb72273527c7f</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=a38dffeb6e9f4ab5eaffb72273527c7f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=a38dffeb6e9f4ab5eaffb72273527c7f</comments>
+            <pubDate>Sun, 18 Feb 2024 19:26:03 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Terry Pratchett - [Discworld 25] - The Truth (retail) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=a38dffeb6e9f4ab5eaffb72273527c7f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="604000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="604000"/>
+            <newznab:attr name="guid" value="a38dffeb6e9f4ab5eaffb72273527c7f"/>
+            <newznab:attr name="grabs" value="1180"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:26:03 +0000"/>
+        </item>
+        <item>
+            <title>Terry Pratchett - [Discworld 02] - The Light Fantastic (UK) (retail) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=f19bb2bdedfd65cfa51919b79e5e1f6d</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=f19bb2bdedfd65cfa51919b79e5e1f6d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=f19bb2bdedfd65cfa51919b79e5e1f6d</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:52 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Terry Pratchett - [Discworld 02] - The Light Fantastic (UK) (retail) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=f19bb2bdedfd65cfa51919b79e5e1f6d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2334000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2334000"/>
+            <newznab:attr name="guid" value="f19bb2bdedfd65cfa51919b79e5e1f6d"/>
+            <newznab:attr name="grabs" value="843"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:52 +0000"/>
+        </item>
+        <item>
+            <title>Terry Pratchett - [Discworld 01] - The Color of Magic</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=3c6b4d18f6b469e065f517b0477b19c2</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=3c6b4d18f6b469e065f517b0477b19c2&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=3c6b4d18f6b469e065f517b0477b19c2</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:47 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Terry Pratchett - [Discworld 01] - The Color of Magic</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=3c6b4d18f6b469e065f517b0477b19c2&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1028000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1028000"/>
+            <newznab:attr name="guid" value="3c6b4d18f6b469e065f517b0477b19c2"/>
+            <newznab:attr name="grabs" value="11"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:47 +0000"/>
+        </item>
+        <item>
+            <title>Terry Pratchett - A Stroke of the Pen-The Lost Stories (retail) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=45c27b96a87b66ccfb93da17547e33ea</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=45c27b96a87b66ccfb93da17547e33ea&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=45c27b96a87b66ccfb93da17547e33ea</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:47 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Terry Pratchett - A Stroke of the Pen-The Lost Stories (retail) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=45c27b96a87b66ccfb93da17547e33ea&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="6209000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="6209000"/>
+            <newznab:attr name="guid" value="45c27b96a87b66ccfb93da17547e33ea"/>
+            <newznab:attr name="grabs" value="1757"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:47 +0000"/>
+        </item>
+        <item>
+            <title>Tamsyn Muir - [Locked Tomb 03] - Nona the Ninth</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=db423d738b197c4b31d92605d2f28342</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=db423d738b197c4b31d92605d2f28342&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=db423d738b197c4b31d92605d2f28342</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:45 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Tamsyn Muir - [Locked Tomb 03] - Nona the Ninth</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=db423d738b197c4b31d92605d2f28342&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="5837000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="5837000"/>
+            <newznab:attr name="guid" value="db423d738b197c4b31d92605d2f28342"/>
+            <newznab:attr name="grabs" value="7"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:45 +0000"/>
+        </item>
+        <item>
+            <title>Scott Baron - [Clockwork Chimera 03] - Daisys Gambit</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=1f1b4a6d7303c8f5c70fd65a223375b8</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=1f1b4a6d7303c8f5c70fd65a223375b8&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=1f1b4a6d7303c8f5c70fd65a223375b8</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:45 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Scott Baron - [Clockwork Chimera 03] - Daisys Gambit</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=1f1b4a6d7303c8f5c70fd65a223375b8&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="637000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="637000"/>
+            <newznab:attr name="guid" value="1f1b4a6d7303c8f5c70fd65a223375b8"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:45 +0000"/>
+        </item>
+        <item>
+            <title>Tamsyn Muir - [Locked Tomb 02] - Harrow the Ninth (retail) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=ebd93c5f7f29829b13396b9e66769b9c</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=ebd93c5f7f29829b13396b9e66769b9c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=ebd93c5f7f29829b13396b9e66769b9c</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:45 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Tamsyn Muir - [Locked Tomb 02] - Harrow the Ninth (retail) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=ebd93c5f7f29829b13396b9e66769b9c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="6914000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="6914000"/>
+            <newznab:attr name="guid" value="ebd93c5f7f29829b13396b9e66769b9c"/>
+            <newznab:attr name="grabs" value="138"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:45 +0000"/>
+        </item>
+        <item>
+            <title>Scott Baron - [Clockwork Chimera 01] - Daisys Run</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=b832cb94bafde8324f90a824b7aa0c6a</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=b832cb94bafde8324f90a824b7aa0c6a&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=b832cb94bafde8324f90a824b7aa0c6a</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:43 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Scott Baron - [Clockwork Chimera 01] - Daisys Run</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=b832cb94bafde8324f90a824b7aa0c6a&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="649000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="649000"/>
+            <newznab:attr name="guid" value="b832cb94bafde8324f90a824b7aa0c6a"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:43 +0000"/>
+        </item>
+        <item>
+            <title>Scott Baron - Deep Space Boogie Bundle</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=30e36622e416eff51db67af258fe06d0</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=30e36622e416eff51db67af258fe06d0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=30e36622e416eff51db67af258fe06d0</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:43 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Scott Baron - Deep Space Boogie Bundle</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=30e36622e416eff51db67af258fe06d0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="871000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="871000"/>
+            <newznab:attr name="guid" value="30e36622e416eff51db67af258fe06d0"/>
+            <newznab:attr name="grabs" value="8"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:43 +0000"/>
+        </item>
+        <item>
+            <title>Sarah Monette - [Kyle Murchison Booth 20] - A Theory of Haunting (retail) (mobi)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=760b969ba28c8eafc06954de294c5cac</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=760b969ba28c8eafc06954de294c5cac&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=760b969ba28c8eafc06954de294c5cac</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:39 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Sarah Monette - [Kyle Murchison Booth 20] - A Theory of Haunting (retail) (mobi)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=760b969ba28c8eafc06954de294c5cac&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1415000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1415000"/>
+            <newznab:attr name="guid" value="760b969ba28c8eafc06954de294c5cac"/>
+            <newznab:attr name="grabs" value="10"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:39 +0000"/>
+        </item>
+        <item>
+            <title>Sam J Miller - Kid Wolf and Kraken Boy (retail) (mobi)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=c13badd48fac0999c501c64bbf77c92f</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=c13badd48fac0999c501c64bbf77c92f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=c13badd48fac0999c501c64bbf77c92f</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:37 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Sam J Miller - Kid Wolf and Kraken Boy (retail) (mobi)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=c13badd48fac0999c501c64bbf77c92f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1109000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1109000"/>
+            <newznab:attr name="guid" value="c13badd48fac0999c501c64bbf77c92f"/>
+            <newznab:attr name="grabs" value="12"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:37 +0000"/>
+        </item>
+        <item>
+            <title>S L Huang - The Water Outlaws (retail) (mobi)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=49b5352e07e0f091f7c17fa72f325f53</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=49b5352e07e0f091f7c17fa72f325f53&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=49b5352e07e0f091f7c17fa72f325f53</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:36 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>S L Huang - The Water Outlaws (retail) (mobi)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=49b5352e07e0f091f7c17fa72f325f53&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2991000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2991000"/>
+            <newznab:attr name="guid" value="49b5352e07e0f091f7c17fa72f325f53"/>
+            <newznab:attr name="grabs" value="15"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:36 +0000"/>
+        </item>
+        <item>
+            <title>Richard Cowper - Breakthrough (US) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=ea053c4280307898151a35a2f0888dbe</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=ea053c4280307898151a35a2f0888dbe&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=ea053c4280307898151a35a2f0888dbe</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:33 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Richard Cowper - Breakthrough (US) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=ea053c4280307898151a35a2f0888dbe&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="920000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="920000"/>
+            <newznab:attr name="guid" value="ea053c4280307898151a35a2f0888dbe"/>
+            <newznab:attr name="grabs" value="10"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:33 +0000"/>
+        </item>
+        <item>
+            <title>Rebecca Fraimow - The Iron Children</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=9cc9127689908fb2e408ef9d241a23b0</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=9cc9127689908fb2e408ef9d241a23b0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=9cc9127689908fb2e408ef9d241a23b0</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:30 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Rebecca Fraimow - The Iron Children</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=9cc9127689908fb2e408ef9d241a23b0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1765000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1765000"/>
+            <newznab:attr name="guid" value="9cc9127689908fb2e408ef9d241a23b0"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:30 +0000"/>
+        </item>
+        <item>
+            <title>Rhett C Bruno &amp;amp;amp; Fred R Savage - [Eighth Continent 02] - Moon 20 (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=403540b4444f03d535b150f0c640f689</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=403540b4444f03d535b150f0c640f689&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=403540b4444f03d535b150f0c640f689</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:30 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Rhett C Bruno &amp;amp;amp; Fred R Savage - [Eighth Continent 02] - Moon 20 (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=403540b4444f03d535b150f0c640f689&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1041000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1041000"/>
+            <newznab:attr name="guid" value="403540b4444f03d535b150f0c640f689"/>
+            <newznab:attr name="grabs" value="7"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:30 +0000"/>
+        </item>
+        <item>
+            <title>Raymond Z Gallun - The Long Winter (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=22fbe1b93904e0a6d795cb89303caf4a</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=22fbe1b93904e0a6d795cb89303caf4a&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=22fbe1b93904e0a6d795cb89303caf4a</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:30 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Raymond Z Gallun - The Long Winter (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=22fbe1b93904e0a6d795cb89303caf4a&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="584000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="584000"/>
+            <newznab:attr name="guid" value="22fbe1b93904e0a6d795cb89303caf4a"/>
+            <newznab:attr name="grabs" value="8"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:30 +0000"/>
+        </item>
+        <item>
+            <title>Remco van Straten &amp;amp;amp; Angeline B Adams - The Red Man And Others</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=067eda176c0f776649aa465ece120283</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=067eda176c0f776649aa465ece120283&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=067eda176c0f776649aa465ece120283</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:30 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Remco van Straten &amp;amp;amp; Angeline B Adams - The Red Man And Others</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=067eda176c0f776649aa465ece120283&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1106000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1106000"/>
+            <newznab:attr name="guid" value="067eda176c0f776649aa465ece120283"/>
+            <newznab:attr name="grabs" value="6"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:30 +0000"/>
+        </item>
+        <item>
+            <title>Ray Cummings - An Ultimatum From Mars (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=898b3e5982069e686a2fe929f6e9d57f</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=898b3e5982069e686a2fe929f6e9d57f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=898b3e5982069e686a2fe929f6e9d57f</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:27 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Ray Cummings - An Ultimatum From Mars (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=898b3e5982069e686a2fe929f6e9d57f&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="698000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="698000"/>
+            <newznab:attr name="guid" value="898b3e5982069e686a2fe929f6e9d57f"/>
+            <newznab:attr name="grabs" value="8"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:27 +0000"/>
+        </item>
+        <item>
+            <title>Ray Bradbury - The Fireman-Fire, Fire, Burn Books</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=3c5388846e684bc52799672bb61d0975</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=3c5388846e684bc52799672bb61d0975&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=3c5388846e684bc52799672bb61d0975</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:25 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Ray Bradbury - The Fireman-Fire, Fire, Burn Books</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=3c5388846e684bc52799672bb61d0975&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="925000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="925000"/>
+            <newznab:attr name="guid" value="3c5388846e684bc52799672bb61d0975"/>
+            <newznab:attr name="grabs" value="9"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:25 +0000"/>
+        </item>
+        <item>
+            <title>Rachel Neumeier - [Invictus 02] - Crisis</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=eaef56c1e0478181002a2a846f4007d3</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=eaef56c1e0478181002a2a846f4007d3&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=eaef56c1e0478181002a2a846f4007d3</comments>
+            <pubDate>Sun, 18 Feb 2024 19:25:23 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Rachel Neumeier - [Invictus 02] - Crisis</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=eaef56c1e0478181002a2a846f4007d3&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="679000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="679000"/>
+            <newznab:attr name="guid" value="eaef56c1e0478181002a2a846f4007d3"/>
+            <newznab:attr name="grabs" value="5"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Feb 2024 19:25:23 +0000"/>
+        </item>
+    </channel>
+</rss>

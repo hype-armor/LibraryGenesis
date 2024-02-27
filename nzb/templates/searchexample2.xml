@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:newznab="http://www.newznab.com/DTD/2010/feeds/attributes/">
+    <channel>
+        <atom:link href="http://192.168.0.141:8003/api?t=search&amp;cat=3030,7020,8010&amp;extended=1&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa&amp;offset=0&amp;limit=100&amp;q=Where%20the%20Crawdads%20Sing" rel="self" type="application/rss+xml" />
+        <title>192.168.0.141:8003</title>
+        <description>python API</description>
+        <link>http://192.168.0.141:8003/</link>
+        <language>en-gb</language>
+        <webMaster>info@example.info (example)</webMaster>
+        <category></category>
+        <image>
+            <url>https://api.nzbgeek.info/covers/nzbgeek.png</url>
+            <title>api.nzbgeek.info</title>
+            <link>http://api.nzbgeek.info/</link>
+            <description>NZBgeek</description>
+        </image>
+        <newznab:response offset="0" total="3" />
+        <item>
+            <title>Where the Crawdads Sing</title>
+            <guid isPermaLink="true">F452F3B5B9E8F6E32C9D8603C4E59B99</guid>
+            <link>http://library.lol/main/F452F3B5B9E8F6E32C9D8603C4E59B99</link>
+            <comments>http://library.lol/main/F452F3B5B9E8F6E32C9D8603C4E59B99</comments>
+            <pubDate>Sun, 13 May 2018 14:52:04 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Delia Owens - Where the Crawdads Sing</description>
+            <enclosure url="http://192.168.0.141:8003/api&reallink=http://library.lol/main/F452F3B5B9E8F6E32C9D8603C4E59B99" length="4096" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="4096"/>
+            <newznab:attr name="guid" value="F452F3B5B9E8F6E32C9D8603C4E59B99"/>
+            <newznab:attr name="grabs" value="46"/>
+            <newznab:attr name="usenetdate" value="Sun, 13 May 2018 14:52:04 +0000"/>
+        </item>
+        <item>
+            <title>Where the Crawdads Sing: Delia Owens | A Comprehensive Summary</title>
+            <guid isPermaLink="true">161D31A716B7560C434EE8831D4E5E43</guid>
+            <link>http://library.lol/main/161D31A716B7560C434EE8831D4E5E43</link>
+            <comments>http://library.lol/main/161D31A716B7560C434EE8831D4E5E43</comments>
+            <pubDate>Sun, 13 May 2019 14:52:04 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Instant;Summary - Where the Crawdads Sing: Delia Owens | A Comprehensive Summary</description>
+            <enclosure url="http://192.168.0.141:8003/api&reallink=http://library.lol/main/161D31A716B7560C434EE8831D4E5E43" length="91136" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="91136"/>
+            <newznab:attr name="guid" value="161D31A716B7560C434EE8831D4E5E43"/>
+            <newznab:attr name="grabs" value="46"/>
+            <newznab:attr name="usenetdate" value="Sun, 13 May 2019 14:52:04 +0000"/>
+        </item>
+        <item>
+            <title>Summary--"Where the Crawdads Sing" by Delia Owens | Discussion Prompts</title>
+            <guid isPermaLink="true">512F288D635D6223C4170348FEDE5990</guid>
+            <link>http://library.lol/main/512F288D635D6223C4170348FEDE5990</link>
+            <comments>http://library.lol/main/512F288D635D6223C4170348FEDE5990</comments>
+            <pubDate>Sun, 13 May 2018 14:52:04 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>bestof.me - Summary--"Where the Crawdads Sing" by Delia Owens | Discussion Prompts</description>
+            <enclosure url="http://192.168.0.141:8003/api&reallink=http://library.lol/main/512F288D635D6223C4170348FEDE5990" length="243712" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="243712"/>
+            <newznab:attr name="guid" value="512F288D635D6223C4170348FEDE5990"/>
+            <newznab:attr name="grabs" value="46"/>
+            <newznab:attr name="usenetdate" value="Sun, 13 May 2018 14:52:04 +0000"/>
+        </item>
+    </channel>
+</rss>

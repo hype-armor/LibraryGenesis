@@ -224,7 +224,8 @@ class result:
                         int(float(response.length) / float(total_size) * 100) - 100
                     )
                     f.write(chunk)
-        except:
-            print("Failed to save: " + self.file_path)
+                f.flush()
+        except Exception:
+            print("Failed to save: {str(self.file_path)}")
 
         print("Done!")

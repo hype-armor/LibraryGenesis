@@ -1,0 +1,75 @@
+{
+    "version": "1.1",
+    "id": "4e5d9b85",
+    "result": [
+        {
+            "ID": 2427,
+            "Name": "Star.Trek.Voyager.S01E01.Caretaker.DVDRip.x264.AC3.5.1-MEECH-AsRequested",
+            "RemainingFileCount": 0,
+            "RetryData": false,
+            "HistoryTime": 1708542038,
+            "Status": "FAILURE/HEALTH",
+            "Log": [],
+            "NZBID": 2427,
+            "NZBName": "Star.Trek.Voyager.S01E01.Caretaker.DVDRip.x264.AC3.5.1-MEECH-AsRequested",
+            "NZBNicename": "Star.Trek.Voyager.S01E01.Caretaker.DVDRip.x264.AC3.5.1-MEECH-AsRequested",
+            "Kind": "NZB",
+            "URL": "",
+            "NZBFilename": "Star.Trek.Voyager.S01E01.Caretaker.DVDRip.x264.AC3.5.1-MEECH-AsRequested.nzb",
+            "DestDir": "\/downloads\/incomplete\/Star.Trek.Voyager.S01E01.Caretaker.DVDRip.x264.AC3.5.1-MEECH-AsRequested.#2427",
+            "FinalDir": "",
+            "Category": "Series",
+            "ParStatus": "FAILURE",
+            "ExParStatus": "NONE",
+            "UnpackStatus": "NONE",
+            "MoveStatus": "NONE",
+            "ScriptStatus": "NONE",
+            "DeleteStatus": "HEALTH",
+            "MarkStatus": "NONE",
+            "UrlStatus": "NONE",
+            "FileSizeLo": 1265308622,
+            "FileSizeHi": 0,
+            "FileSizeMB": 1206,
+            "FileCount": 7,
+            "MinPostTime": 1678508423,
+            "MaxPostTime": 1678508423,
+            "TotalArticles": 326,
+            "SuccessArticles": 0,
+            "FailedArticles": 43,
+            "Health": 876,
+            "CriticalHealth": 954,
+            "DupeKey": "",
+            "DupeScore": 0,
+            "DupeMode": "ALL",
+            "Deleted": true,
+            "DownloadedSizeLo": 5708,
+            "DownloadedSizeHi": 0,
+            "DownloadedSizeMB": 0,
+            "DownloadTimeSec": 39,
+            "PostTotalTimeSec": 0,
+            "ParTimeSec": 0,
+            "RepairTimeSec": 0,
+            "UnpackTimeSec": 0,
+            "MessageCount": 1,
+            "ExtraParBlocks": 0,
+            "Parameters": [
+                {
+                    "Name": "drone",
+                    "Value": "ccfc3edf6c8f4e1cb66b638f9006bc40"
+                },
+                {
+                    "Name": "*Unpack:",
+                    "Value": "yes"
+                }
+            ],
+            "ScriptStatuses": [],
+            "ServerStats": [
+                {
+                    "ServerID": 1,
+                    "SuccessArticles": 0,
+                    "FailedArticles": 43
+                }
+            ]
+        }
+    ]
+}

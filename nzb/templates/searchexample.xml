@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:newznab="http://www.newznab.com/DTD/2010/feeds/attributes/">
+    <channel>
+        <atom:link href="https://api.nzbgeek.info/api?t=search&amp;cat=3030,7020,8010&amp;extended=1&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa&amp;offset=0&amp;limit=100&amp;q=Fifty%20Shades%20of%20Grey" rel="self" type="application/rss+xml" />
+        <title>api.nzbgeek.info</title>
+        <description>NZBgeek API</description>
+        <link>http://api.nzbgeek.info/</link>
+        <language>en-gb</language>
+        <webMaster>info@nzbgeek.info (NZBgeek)</webMaster>
+        <category></category>
+        <image>
+            <url>https://api.nzbgeek.info/covers/nzbgeek.png</url>
+            <title>api.nzbgeek.info</title>
+            <link>http://api.nzbgeek.info/</link>
+            <description>NZBgeek</description>
+        </image>
+        <newznab:response offset="0" total="25" />
+        <item>
+            <title>James, E L - Fifty Shades 01 - Fifty Shades of Grey (retail)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=be6daa29e818f47d52777ba15f15036a</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=be6daa29e818f47d52777ba15f15036a&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=be6daa29e818f47d52777ba15f15036a</comments>
+            <pubDate>Sun, 01 May 2022 15:30:18 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>James, E L - Fifty Shades 01 - Fifty Shades of Grey (retail)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=be6daa29e818f47d52777ba15f15036a&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2414000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2414000"/>
+            <newznab:attr name="guid" value="be6daa29e818f47d52777ba15f15036a"/>
+            <newznab:attr name="grabs" value="46"/>
+            <newznab:attr name="usenetdate" value="Sun, 01 May 2022 15:30:18 +0000"/>
+        </item>
+        <item>
+            <title>James, E L - Fifty Shades 04 - Shades of Grey as Told by Christian</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=8fa36d0a79f4cd86291391b1c722c2ab</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=8fa36d0a79f4cd86291391b1c722c2ab&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=8fa36d0a79f4cd86291391b1c722c2ab</comments>
+            <pubDate>Mon, 14 Jun 2021 13:47:29 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>James, E L - Fifty Shades 04 - Shades of Grey as Told by Christian</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=8fa36d0a79f4cd86291391b1c722c2ab&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2448000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2448000"/>
+            <newznab:attr name="guid" value="8fa36d0a79f4cd86291391b1c722c2ab"/>
+            <newznab:attr name="grabs" value="22"/>
+            <newznab:attr name="usenetdate" value="Mon, 14 Jun 2021 13:47:29 +0000"/>
+        </item>
+        <item>
+            <title>E.L.James-Fifty.Shades.of.Grey.as.Told.by.Christian.02-Darker.Unabr-64k.[2017]</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=be0cfceef87b44498c84dfacfa1d7e84</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=be0cfceef87b44498c84dfacfa1d7e84&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=be0cfceef87b44498c84dfacfa1d7e84</comments>
+            <pubDate>Mon, 24 Feb 2020 02:07:57 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>E.L.James-Fifty.Shades.of.Grey.as.Told.by.Christian.02-Darker.Unabr-64k.[2017]</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=be0cfceef87b44498c84dfacfa1d7e84&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="499049000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="499049000"/>
+            <newznab:attr name="guid" value="be0cfceef87b44498c84dfacfa1d7e84"/>
+            <newznab:attr name="grabs" value="114"/>
+            <newznab:attr name="usenetdate" value="Mon, 24 Feb 2020 02:07:57 +0000"/>
+        </item>
+        <item>
+            <title>E.L.James-Fifty.Shades.of.Grey.as.Told.by.Christian.01-Grey.Unabr-64k.[2015]</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=6a0d61b6342c71b8883b900df5a7f7e2</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=6a0d61b6342c71b8883b900df5a7f7e2&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=6a0d61b6342c71b8883b900df5a7f7e2</comments>
+            <pubDate>Mon, 24 Feb 2020 01:34:43 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>E.L.James-Fifty.Shades.of.Grey.as.Told.by.Christian.01-Grey.Unabr-64k.[2015]</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=6a0d61b6342c71b8883b900df5a7f7e2&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="595086000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="595086000"/>
+            <newznab:attr name="guid" value="6a0d61b6342c71b8883b900df5a7f7e2"/>
+            <newznab:attr name="grabs" value="80"/>
+            <newznab:attr name="usenetdate" value="Mon, 24 Feb 2020 01:34:43 +0000"/>
+        </item>
+        <item>
+            <title>E.L.James-Fifty.Shades.01-Fifty.Shades.of.Grey.Unabr-64k.[2012]</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=0a729ff74184f1d1f96ba6d42d21ab67</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=0a729ff74184f1d1f96ba6d42d21ab67&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=0a729ff74184f1d1f96ba6d42d21ab67</comments>
+            <pubDate>Sun, 23 Feb 2020 23:26:58 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>E.L.James-Fifty.Shades.01-Fifty.Shades.of.Grey.Unabr-64k.[2012]</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=0a729ff74184f1d1f96ba6d42d21ab67&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="605959000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="605959000"/>
+            <newznab:attr name="guid" value="0a729ff74184f1d1f96ba6d42d21ab67"/>
+            <newznab:attr name="grabs" value="91"/>
+            <newznab:attr name="usenetdate" value="Sun, 23 Feb 2020 23:26:58 +0000"/>
+        </item>
+        <item>
+            <title>Fifty Shades Of Grey (Original Motion Picture Soundtrack)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=7fe7a8842ddd730423f0ea22702824de</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=7fe7a8842ddd730423f0ea22702824de&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=7fe7a8842ddd730423f0ea22702824de</comments>
+            <pubDate>Tue, 13 Feb 2018 17:06:42 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>Fifty Shades Of Grey (Original Motion Picture Soundtrack)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=7fe7a8842ddd730423f0ea22702824de&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="686929000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="686929000"/>
+            <newznab:attr name="guid" value="7fe7a8842ddd730423f0ea22702824de"/>
+            <newznab:attr name="grabs" value="14"/>
+            <newznab:attr name="usenetdate" value="Tue, 13 Feb 2018 17:06:42 +0000"/>
+        </item>
+        <item>
+            <title>Fifty Shades Of Grey (2015) MKV (1080p) DTS-HD</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=6350889ce1feb96ac0fb4caa42b16800</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=6350889ce1feb96ac0fb4caa42b16800&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=6350889ce1feb96ac0fb4caa42b16800</comments>
+            <pubDate>Sun, 01 Nov 2015 15:27:02 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>Fifty Shades Of Grey (2015) MKV (1080p) DTS-HD</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=6350889ce1feb96ac0fb4caa42b16800&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="4371232000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="4371232000"/>
+            <newznab:attr name="guid" value="6350889ce1feb96ac0fb4caa42b16800"/>
+            <newznab:attr name="grabs" value="16"/>
+            <newznab:attr name="usenetdate" value="Sun, 01 Nov 2015 15:27:02 +0000"/>
+        </item>
+        <item>
+            <title>E L James - [Fifty Shades 04] - Grey- Fifty Shades of Grey as told by Christian [MF] (retail) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=4c084682ffc2494da64abe555e8cd9ee</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=4c084682ffc2494da64abe555e8cd9ee&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=4c084682ffc2494da64abe555e8cd9ee</comments>
+            <pubDate>Sun, 19 Jul 2015 16:49:34 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>E L James - [Fifty Shades 04] - Grey- Fifty Shades of Grey as told by Christian [MF] (retail) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=4c084682ffc2494da64abe555e8cd9ee&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2476000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2476000"/>
+            <newznab:attr name="guid" value="4c084682ffc2494da64abe555e8cd9ee"/>
+            <newznab:attr name="grabs" value="784"/>
+            <newznab:attr name="usenetdate" value="Sun, 19 Jul 2015 16:49:34 +0000"/>
+        </item>
+        <item>
+            <title>E L James - [Fifty Shades 01-03] - The Fifty Shades Trilogy &amp;amp;amp; Grey Bundle (Fifty Shades of Grey; Darker; Freed; Grey) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=70ddd901fa4abdc426eaeff8c74fac9d</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=70ddd901fa4abdc426eaeff8c74fac9d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=70ddd901fa4abdc426eaeff8c74fac9d</comments>
+            <pubDate>Fri, 03 Jul 2015 12:48:42 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>E L James - [Fifty Shades 01-03] - The Fifty Shades Trilogy &amp;amp;amp; Grey Bundle (Fifty Shades of Grey; Darker; Freed; Grey) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=70ddd901fa4abdc426eaeff8c74fac9d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1865000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1865000"/>
+            <newznab:attr name="guid" value="70ddd901fa4abdc426eaeff8c74fac9d"/>
+            <newznab:attr name="grabs" value="739"/>
+            <newznab:attr name="usenetdate" value="Fri, 03 Jul 2015 12:48:42 +0000"/>
+        </item>
+        <item>
+            <title>Fifty.Shades.Of.Grey.2015.Unrated.BluRay.1080p.Dts-Hdma.5.1-LTT-Obfuscated</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=8c541ffde6ebd87649255691b3a35e35</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=8c541ffde6ebd87649255691b3a35e35&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=8c541ffde6ebd87649255691b3a35e35</comments>
+            <pubDate>Fri, 22 May 2015 13:12:10 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>Fifty.Shades.Of.Grey.2015.Unrated.BluRay.1080p.Dts-Hdma.5.1-LTT-Obfuscated</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=8c541ffde6ebd87649255691b3a35e35&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="11173142000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="11173142000"/>
+            <newznab:attr name="guid" value="8c541ffde6ebd87649255691b3a35e35"/>
+            <newznab:attr name="language" value="English"/>
+            <newznab:attr name="grabs" value="22"/>
+            <newznab:attr name="usenetdate" value="Fri, 22 May 2015 13:12:10 +0000"/>
+        </item>
+        <item>
+            <title>Fifty Shades of Grey</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=a81a1df54adcfb87e51b62846081aa69</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=a81a1df54adcfb87e51b62846081aa69&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=a81a1df54adcfb87e51b62846081aa69</comments>
+            <pubDate>Wed, 18 Feb 2015 20:05:00 +0000</pubDate>
+            <category>Other > Misc</category>
+            <description>Fifty Shades of Grey</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=a81a1df54adcfb87e51b62846081aa69&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="327278000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="8000"/>
+            <newznab:attr name="category" value="8010"/>
+            <newznab:attr name="size" value="327278000"/>
+            <newznab:attr name="guid" value="a81a1df54adcfb87e51b62846081aa69"/>
+            <newznab:attr name="grabs" value="3"/>
+            <newznab:attr name="usenetdate" value="Wed, 18 Feb 2015 20:05:00 +0000"/>
+        </item>
+        <item>
+            <title>03-Fifty Shades of Grey - E. L. James</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=91b90a7e3c65fe6a150a7c8dfbb8367a</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=91b90a7e3c65fe6a150a7c8dfbb8367a&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=91b90a7e3c65fe6a150a7c8dfbb8367a</comments>
+            <pubDate>Fri, 13 Feb 2015 22:47:28 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>03-Fifty Shades of Grey - E. L. James</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=91b90a7e3c65fe6a150a7c8dfbb8367a&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="1201000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="1201000"/>
+            <newznab:attr name="guid" value="91b90a7e3c65fe6a150a7c8dfbb8367a"/>
+            <newznab:attr name="grabs" value="71"/>
+            <newznab:attr name="usenetdate" value="Fri, 13 Feb 2015 22:47:28 +0000"/>
+        </item>
+        <item>
+            <title>Lori Perkins (ed) - Fifty Writers on Fifty Shades of Grey (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=f8b4d43b71c879b2ce0e7ec96cf87c57</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=f8b4d43b71c879b2ce0e7ec96cf87c57&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=f8b4d43b71c879b2ce0e7ec96cf87c57</comments>
+            <pubDate>Tue, 17 Dec 2013 14:08:27 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Lori Perkins (ed) - Fifty Writers on Fifty Shades of Grey (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=f8b4d43b71c879b2ce0e7ec96cf87c57&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2605000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2605000"/>
+            <newznab:attr name="guid" value="f8b4d43b71c879b2ce0e7ec96cf87c57"/>
+            <newznab:attr name="grabs" value="16"/>
+            <newznab:attr name="usenetdate" value="Tue, 17 Dec 2013 14:08:27 +0000"/>
+        </item>
+        <item>
+            <title>Fifty.Shades.of.Grey-E.L.James</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=e9a78b6aee4c1d209687fe026710bbab</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=e9a78b6aee4c1d209687fe026710bbab&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=e9a78b6aee4c1d209687fe026710bbab</comments>
+            <pubDate>Wed, 06 Nov 2013 08:21:15 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Fifty.Shades.of.Grey-E.L.James</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=e9a78b6aee4c1d209687fe026710bbab&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="6780000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="6780000"/>
+            <newznab:attr name="guid" value="e9a78b6aee4c1d209687fe026710bbab"/>
+            <newznab:attr name="grabs" value="107"/>
+            <newznab:attr name="usenetdate" value="Wed, 06 Nov 2013 08:21:15 +0000"/>
+        </item>
+        <item>
+            <title>10.Fifty.Shades.of.Grey-E.L.James</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=84fc4e0295f63f8f4c574d47fbb53b60</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=84fc4e0295f63f8f4c574d47fbb53b60&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=84fc4e0295f63f8f4c574d47fbb53b60</comments>
+            <pubDate>Thu, 19 Sep 2013 21:27:36 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>10.Fifty.Shades.of.Grey-E.L.James</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=84fc4e0295f63f8f4c574d47fbb53b60&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="5420000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="5420000"/>
+            <newznab:attr name="guid" value="84fc4e0295f63f8f4c574d47fbb53b60"/>
+            <newznab:attr name="grabs" value="20"/>
+            <newznab:attr name="usenetdate" value="Thu, 19 Sep 2013 21:27:36 +0000"/>
+        </item>
+        <item>
+            <title>12.Fifty.Shades.of.Grey-E.L.James</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=34a4af8b3431a45f6771f337b8173ea0</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=34a4af8b3431a45f6771f337b8173ea0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=34a4af8b3431a45f6771f337b8173ea0</comments>
+            <pubDate>Mon, 16 Sep 2013 21:41:42 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>12.Fifty.Shades.of.Grey-E.L.James</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=34a4af8b3431a45f6771f337b8173ea0&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="5422000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="5422000"/>
+            <newznab:attr name="guid" value="34a4af8b3431a45f6771f337b8173ea0"/>
+            <newznab:attr name="grabs" value="20"/>
+            <newznab:attr name="usenetdate" value="Mon, 16 Sep 2013 21:41:42 +0000"/>
+        </item>
+        <item>
+            <title>Fifty Shades of Grey - E L James</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=a5c9194a4aea921018d68d4263787bc5</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=a5c9194a4aea921018d68d4263787bc5&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=a5c9194a4aea921018d68d4263787bc5</comments>
+            <pubDate>Mon, 08 Jul 2013 03:42:57 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Fifty Shades of Grey - E L James</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=a5c9194a4aea921018d68d4263787bc5&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="6875000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="6875000"/>
+            <newznab:attr name="guid" value="a5c9194a4aea921018d68d4263787bc5"/>
+            <newznab:attr name="grabs" value="33"/>
+            <newznab:attr name="usenetdate" value="Mon, 08 Jul 2013 03:42:57 +0000"/>
+        </item>
+        <item>
+            <title>James, E L - Fifty Shades 01 - 03 - Fifty Shades Trilogy (Fifty Shades of Grey; Darker; Freed) (v5.0) [epub]</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=c82b5f5f53e1d78e8cf97dbf38e14b92</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=c82b5f5f53e1d78e8cf97dbf38e14b92&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=c82b5f5f53e1d78e8cf97dbf38e14b92</comments>
+            <pubDate>Sun, 31 Mar 2013 05:09:44 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>James, E L - Fifty Shades 01 - 03 - Fifty Shades Trilogy (Fifty Shades of Grey; Darker; Freed) (v5.0) [epub]</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=c82b5f5f53e1d78e8cf97dbf38e14b92&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="4238000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="4238000"/>
+            <newznab:attr name="guid" value="c82b5f5f53e1d78e8cf97dbf38e14b92"/>
+            <newznab:attr name="grabs" value="257"/>
+            <newznab:attr name="usenetdate" value="Sun, 31 Mar 2013 05:09:44 +0000"/>
+        </item>
+        <item>
+            <title>Fifty Shades of Grey - [FIFTY SHADES TRILOGY 01] (v5.0) - E L James</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=85cfad2f88537848cc9928ad86422d79</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=85cfad2f88537848cc9928ad86422d79&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=85cfad2f88537848cc9928ad86422d79</comments>
+            <pubDate>Fri, 29 Mar 2013 05:19:24 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Fifty Shades of Grey - [FIFTY SHADES TRILOGY 01] (v5.0) - E L James</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=85cfad2f88537848cc9928ad86422d79&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="719000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="719000"/>
+            <newznab:attr name="guid" value="85cfad2f88537848cc9928ad86422d79"/>
+            <newznab:attr name="grabs" value="45"/>
+            <newznab:attr name="usenetdate" value="Fri, 29 Mar 2013 05:19:24 +0000"/>
+        </item>
+        <item>
+            <title>E L James - [Fifty Shades 01] - Fifty Shades of Grey (retail) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=3b29c60581f8fb52e215909b5a8a1c90</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=3b29c60581f8fb52e215909b5a8a1c90&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=3b29c60581f8fb52e215909b5a8a1c90</comments>
+            <pubDate>Mon, 28 Jan 2013 16:48:46 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>E L James - [Fifty Shades 01] - Fifty Shades of Grey (retail) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=3b29c60581f8fb52e215909b5a8a1c90&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="2395000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="2395000"/>
+            <newznab:attr name="guid" value="3b29c60581f8fb52e215909b5a8a1c90"/>
+            <newznab:attr name="grabs" value="154"/>
+            <newznab:attr name="usenetdate" value="Mon, 28 Jan 2013 16:48:46 +0000"/>
+        </item>
+        <item>
+            <title>E L James - [Fifty Shades 00] - Master of the Universe I &amp;amp;amp; II (Twilight fanfic that became 50 Shades of Grey) (pdf)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=3fb70f5050a82acdcb8448a254f2523d</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=3fb70f5050a82acdcb8448a254f2523d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=3fb70f5050a82acdcb8448a254f2523d</comments>
+            <pubDate>Sun, 18 Nov 2012 07:44:42 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>E L James - [Fifty Shades 00] - Master of the Universe I &amp;amp;amp; II (Twilight fanfic that became 50 Shades of Grey) (pdf)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=3fb70f5050a82acdcb8448a254f2523d&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="6149000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="6149000"/>
+            <newznab:attr name="guid" value="3fb70f5050a82acdcb8448a254f2523d"/>
+            <newznab:attr name="grabs" value="49"/>
+            <newznab:attr name="usenetdate" value="Sun, 18 Nov 2012 07:44:42 +0000"/>
+        </item>
+        <item>
+            <title>E L James - [Fifty Shades 01-03] - Fifty Shades Trilogy (Fifty Shades of Grey; Darker; Freed) (v5.0) (epub)</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=a156256c5ba0a7b6fcdfd77be64a43a3</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=a156256c5ba0a7b6fcdfd77be64a43a3&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=a156256c5ba0a7b6fcdfd77be64a43a3</comments>
+            <pubDate>Mon, 12 Nov 2012 03:33:07 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>E L James - [Fifty Shades 01-03] - Fifty Shades Trilogy (Fifty Shades of Grey; Darker; Freed) (v5.0) (epub)</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=a156256c5ba0a7b6fcdfd77be64a43a3&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="4164000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="4164000"/>
+            <newznab:attr name="guid" value="a156256c5ba0a7b6fcdfd77be64a43a3"/>
+            <newznab:attr name="grabs" value="179"/>
+            <newznab:attr name="usenetdate" value="Mon, 12 Nov 2012 03:33:07 +0000"/>
+        </item>
+        <item>
+            <title>Fifty.Shades.of.Grey.Trilogy.b</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=36462d2950793d01fe8300259b761120</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=36462d2950793d01fe8300259b761120&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=36462d2950793d01fe8300259b761120</comments>
+            <pubDate>Sun, 22 Jul 2012 19:55:54 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>Fifty.Shades.of.Grey.Trilogy.b</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=36462d2950793d01fe8300259b761120&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="149146000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="149146000"/>
+            <newznab:attr name="guid" value="36462d2950793d01fe8300259b761120"/>
+            <newznab:attr name="grabs" value="25"/>
+            <newznab:attr name="usenetdate" value="Sun, 22 Jul 2012 19:55:54 +0000"/>
+        </item>
+        <item>
+            <title>E.L.James-FS01-Fifty.Shades.Of.Grey.[AUDIO.BOOK]</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=30478992ce568b064d973a34b40962ee</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=30478992ce568b064d973a34b40962ee&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=30478992ce568b064d973a34b40962ee</comments>
+            <pubDate>Fri, 29 Jun 2012 23:56:13 +0000</pubDate>
+            <category>Audio > Audiobook</category>
+            <description>E.L.James-FS01-Fifty.Shades.Of.Grey.[AUDIO.BOOK]</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=30478992ce568b064d973a34b40962ee&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="797658000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="3000"/>
+            <newznab:attr name="category" value="3030"/>
+            <newznab:attr name="size" value="797658000"/>
+            <newznab:attr name="guid" value="30478992ce568b064d973a34b40962ee"/>
+            <newznab:attr name="grabs" value="373"/>
+            <newznab:attr name="usenetdate" value="Fri, 29 Jun 2012 23:56:13 +0000"/>
+        </item>
+        <item>
+            <title>James, E L -Fifty Shades 1- Fifty Shades of Grey</title>
+            <guid isPermaLink="true">https://nzbgeek.info/geekseek.php?guid=7b628ff19fde115f31cb25cf7846966c</guid>
+            <link>https://api.nzbgeek.info/api?t=get&amp;id=7b628ff19fde115f31cb25cf7846966c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa</link>
+            <comments>https://nzbgeek.info/geekseek.php?guid=7b628ff19fde115f31cb25cf7846966c</comments>
+            <pubDate>Sun, 13 May 2012 02:52:04 +0000</pubDate>
+            <category>Books > Ebook</category>
+            <description>James, E L -Fifty Shades 1- Fifty Shades of Grey</description>
+            <enclosure url="https://api.nzbgeek.info/api?t=get&amp;id=7b628ff19fde115f31cb25cf7846966c&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa" length="3080000" type="application/x-nzb"/>
+            <newznab:attr name="category" value="7000"/>
+            <newznab:attr name="category" value="7020"/>
+            <newznab:attr name="size" value="3080000"/>
+            <newznab:attr name="guid" value="7b628ff19fde115f31cb25cf7846966c"/>
+            <newznab:attr name="grabs" value="21"/>
+            <newznab:attr name="usenetdate" value="Sun, 13 May 2012 02:52:04 +0000"/>
+        </item>
+    </channel>
+</rss>
