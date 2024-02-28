@@ -5,6 +5,7 @@ import os.path
 import urllib.request
 import ssl
 from urllib.parse import unquote
+import json
 
 s = LibgenSearch()
 calibreimportdir = f"P:\media\calibre\import\\"
@@ -86,9 +87,9 @@ def Search(Title, Author="", Year="", Extension="", readarr=False):
         filters["Extension"] = Extension
 
     if readarr:
-        results = s.search(Title)
+        results = s.search_title(Title)
     elif filters == None:
-        results = s.search(Title)
+        results = s.search_title(Title)
     else:
         results = s.search_filtered(Title, filters, exact_match=False)
 
@@ -176,7 +177,7 @@ def slugify(value, allow_unicode=False):
 class result:
     def __init__(self, item) -> None:
         self.item = item
-        Mirror = item.URL
+        Mirror = json.loads('{"Mirror_1": "' + item.URL + '"}')
         print("Getting Download Link...")
         self.download_links = s.resolve_download_links(Mirror)
         if "GET" not in self.download_links:
