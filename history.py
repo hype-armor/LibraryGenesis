@@ -3,8 +3,6 @@ from typing import Any
 from dataclasses import dataclass
 import nzbbaseresult
 import json
-from enum import Enum
-
 @dataclass
 class Parameter:
     Name: str
@@ -31,21 +29,10 @@ class ServerStats:
 
 @dataclass
 class Result(nzbbaseresult.BaseResult):
-    ActiveDownloads: int
-    FirstID: int
-    LastID: int
-    MaxPriority: int
-    MinPriority: int
-    PausedSizeHi: int
-    PausedSizeLo: int
-    PausedSizeMB: int
-    PostInfoText: str
-    PostStageProgress: int
-    PostStageTimeSec: int
-    RemainingParCount: int
-    RemainingSizeHi: int
-    RemainingSizeLo: int
-    RemainingSizeMB: int
+    HistoryTime: int
+    ID: int
+    Name: str
+    RetryData: bool
     ServerStats: List[ServerStats]
     Status: str
     SuccessArticles: int
@@ -57,20 +44,13 @@ class Result(nzbbaseresult.BaseResult):
 
     @staticmethod
     def from_dict(obj: Any) -> 'Result':
-        _FirstID = int(obj.FirstID)
-        _LastID = int(obj.LastID)
-        _RemainingSizeLo = int(obj.RemainingSizeLo)
-        _RemainingSizeHi = int(obj.RemainingSizeHi)
-        _RemainingSizeMB = int(obj.RemainingSizeMB)
-        _PausedSizeLo = int(obj.PausedSizeLo)
-        _PausedSizeHi = int(obj.PausedSizeHi)
-        _PausedSizeMB = int(obj.PausedSizeMB)
+        _ID = int(obj.ID)
+        _Name = str(obj.Name)
         _RemainingFileCount = int(obj.RemainingFileCount)
-        _RemainingParCount = int(obj.RemainingParCount)
-        _MinPriority = int(obj.MinPriority)
-        _MaxPriority = int(obj.MaxPriority)
-        _ActiveDownloads = int(obj.ActiveDownloads)
+        _RetryData = False
+        _HistoryTime = int(obj.HistoryTime)
         _Status = str(obj.Status)
+        _Log = []
         _NZBID = int(obj.NZBID)
         _NZBName = str(obj.NZBName)
         _NZBNicename = str(obj.NZBNicename)
@@ -115,13 +95,7 @@ class Result(nzbbaseresult.BaseResult):
         _ExtraParBlocks = int(obj.ExtraParBlocks)
         _Parameters = [Parameter.from_dict(y) for y in obj.Parameters]
         _ServerStats = [ServerStats.from_dict(y) for y in obj.ServerStats]
-        _PostInfoText = str(obj.PostInfoText)
-        _PostStageProgress = int(obj.PostStageProgress)
-        _PostStageTimeSec = int(obj.PostStageTimeSec)
-        return vars(Result(FirstID=_FirstID, LastID=_LastID, RemainingSizeLo=_RemainingSizeLo, RemainingSizeHi=_RemainingSizeHi, RemainingSizeMB=_RemainingSizeMB, PausedSizeLo=_PausedSizeLo, PausedSizeHi=_PausedSizeHi, PausedSizeMB=_PausedSizeMB, RemainingFileCount=_RemainingFileCount, RemainingParCount=_RemainingParCount, MinPriority=_MinPriority, MaxPriority=_MaxPriority, ActiveDownloads=_ActiveDownloads, Status=_Status, NZBID=_NZBID, NZBName=_NZBName, NZBNicename=_NZBNicename, Kind=_Kind, URL=_URL, NZBFilename=_NZBFilename, DestDir=_DestDir, FinalDir=_FinalDir, Category=_Category, ParStatus=_ParStatus, ExParStatus=_ExParStatus, UnpackStatus=_UnpackStatus, MoveStatus=_MoveStatus, ScriptStatus=_ScriptStatus, DeleteStatus=_DeleteStatus, MarkStatus=_MarkStatus, UrlStatus=_UrlStatus, FileSizeLo=_FileSizeLo, FileSizeHi=_FileSizeHi, FileSizeMB=_FileSizeMB, FileCount=_FileCount, MinPostTime=_MinPostTime, MaxPostTime=_MaxPostTime, TotalArticles=_TotalArticles, SuccessArticles=_SuccessArticles, FailedArticles=_FailedArticles, Health=_Health, CriticalHealth=_CriticalHealth, DupeKey=_DupeKey, DupeScore=_DupeScore, DupeMode=_DupeMode, Deleted=_Deleted, DownloadedSizeLo=_DownloadedSizeLo, DownloadedSizeHi=_DownloadedSizeHi, DownloadedSizeMB=_DownloadedSizeMB, DownloadTimeSec=_DownloadTimeSec, PostTotalTimeSec=_PostTotalTimeSec, ParTimeSec=_ParTimeSec, RepairTimeSec=_RepairTimeSec, UnpackTimeSec=_UnpackTimeSec, MessageCount=_MessageCount, ExtraParBlocks=_ExtraParBlocks, Parameters=_Parameters, ServerStats=_ServerStats, PostInfoText=_PostInfoText, PostStageProgress=_PostStageProgress, PostStageTimeSec=_PostStageTimeSec, Log=[], ScriptStatuses=[]))
-
-
-
+        return vars(Result(ID=_ID, Name=_Name, RemainingFileCount=_RemainingFileCount, RetryData=_RetryData, HistoryTime=_HistoryTime, Status=_Status, Log=_Log, NZBID=_NZBID, NZBName=_NZBName, NZBNicename=_NZBNicename, Kind=_Kind, URL=_URL, NZBFilename=_NZBFilename, DestDir=_DestDir, FinalDir=_FinalDir, Category=_Category, ParStatus=_ParStatus, ExParStatus=_ExParStatus, UnpackStatus=_UnpackStatus, MoveStatus=_MoveStatus, ScriptStatus=_ScriptStatus, ScriptStatuses=[], DeleteStatus=_DeleteStatus, MarkStatus=_MarkStatus, UrlStatus=_UrlStatus, FileSizeLo=_FileSizeLo, FileSizeHi=_FileSizeHi, FileSizeMB=_FileSizeMB, FileCount=_FileCount, MinPostTime=_MinPostTime, MaxPostTime=_MaxPostTime, TotalArticles=_TotalArticles, SuccessArticles=_SuccessArticles, FailedArticles=_FailedArticles, Health=_Health, CriticalHealth=_CriticalHealth, DupeKey=_DupeKey, DupeScore=_DupeScore, DupeMode=_DupeMode, Deleted=_Deleted, DownloadedSizeLo=_DownloadedSizeLo, DownloadedSizeHi=_DownloadedSizeHi, DownloadedSizeMB=_DownloadedSizeMB, DownloadTimeSec=_DownloadTimeSec, PostTotalTimeSec=_PostTotalTimeSec, ParTimeSec=_ParTimeSec, RepairTimeSec=_RepairTimeSec, UnpackTimeSec=_UnpackTimeSec, MessageCount=_MessageCount, ExtraParBlocks=_ExtraParBlocks, Parameters=_Parameters, ServerStats=_ServerStats))
 
 @dataclass
 class Root:
@@ -135,6 +109,9 @@ class Root:
         _id = str(self.id)
         _result = [Result.from_dict(y) for y in self.result]
         return Root(_version, _id, _result)
+
+
+
 # Example Usage
 # jsonstring = json.loads(myjsonstring)
 # root = Root.from_dict(jsonstring)

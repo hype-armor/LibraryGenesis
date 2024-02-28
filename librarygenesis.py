@@ -2,11 +2,13 @@ print("Loading...")
 
 from libgen_api import LibgenSearch
 import os.path
+import urllib.request
+import ssl
+from urllib.parse import unquote
 
 s = LibgenSearch()
 calibreimportdir = f"P:\media\calibre\import\\"
 readarrdownloaddir = f"P:\media\watch\\"
-from urllib.parse import unquote
 
 """ 
 col_names = [
@@ -172,7 +174,9 @@ def slugify(value, allow_unicode=False):
 
 
 class result:
-    def __init__(self, Mirror) -> None:
+    def __init__(self, item) -> None:
+        self.item = item
+        Mirror = item.URL
         print("Getting Download Link...")
         self.download_links = s.resolve_download_links(Mirror)
         if "GET" not in self.download_links:
@@ -204,15 +208,18 @@ class result:
         if os.path.isfile(self.file_path):
             print("Already downloaded.")
             return
-        import urllib.request
-        import ssl
+        
 
         ctx = ssl.create_default_context()
         ctx.check_hostname = False
         ctx.verify_mode = ssl.CERT_NONE
         response = urllib.request.urlopen(self.download_link, context=ctx)
         total_size = response.length
-
+        # set total size of download for self.item
+        print(self.item.FileSizeLo)
+        #287985404
+        print(self.item.FileSizeMB)
+        #274
         try:
             with open(self.file_path, "wb+") as f:
                 while True:
@@ -223,6 +230,7 @@ class result:
                     self.progress = abs(
                         int(float(response.length) / float(total_size) * 100) - 100
                     )
+                    # set remaining size of download for self.item
                     f.write(chunk)
                 f.flush()
         except Exception:

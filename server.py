@@ -143,17 +143,14 @@ class MyServer(BaseHTTPRequestHandler):
                 storeddata = json.loads(self.read_sysfile('nzb/templates/nbzget-status.json'))
             elif data['method'] == 'listgroups':
                 storeddata = nzbdownloader.get_list_groups(data['id'])
-                storeddata = vars(storeddata)
-                #storeddata = json.loads(self.read_sysfile('nzb/templates/nbzget-listgroups.json'))
             elif data['method'] == 'history':
-                storeddata = json.loads(self.read_sysfile('nzb/templates/nbzget-history.json'))
+                storeddata = nzbdownloader.get_history(data['id'])
+                #storeddata = json.loads(self.read_sysfile('nzb/templates/nbzget-history.json'))
             elif data['method'] == 'append':
-                # parse data from append request
                 nbzdatab64 = data['params'][1]
-
-                nzbdownloader.append(nbzdatab64)
-                storeddata = nzbdownloader.get_list_groups(data['id'])
-                storeddata = vars(storeddata)
+                rid = nzbdownloader.append(nbzdatab64)
+                #storeddata = nzbdownloader.get_list_groups(data['id'])
+                storeddata = json.loads('{"version": "1.1", "id": "b7e810e0", "result": ' + str(rid) + '}')
             else:
                 print(json.dumps(data))
                 
