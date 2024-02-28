@@ -151,6 +151,13 @@ class MyServer(BaseHTTPRequestHandler):
                 rid = nzbdownloader.append(nbzdatab64)
                 #storeddata = nzbdownloader.get_list_groups(data['id'])
                 storeddata = json.loads('{"version": "1.1", "id": "b7e810e0", "result": ' + str(rid) + '}')
+            elif data['method'] == 'editqueue':
+                if data['params'][0] == 'GroupFinalDelete':
+                    nzbdownloader.group_final_delete(data['params'][3])
+                    storeddata = json.loads('{"version": "1.1", "id": "b7e810e0", "result": ' + str(data['params'][3]) + '}')
+                elif data['params'][0] == 'HistoryDelete':
+                    nzbdownloader.history_delete(data['params'][3])
+                    storeddata = json.loads('{"version": "1.1", "id": "b7e810e0", "result": ' + str(data['params'][3]) + '}')
             else:
                 print(json.dumps(data))
                 
