@@ -12,8 +12,6 @@ WORKDIR /usr/src/librarygenesis/LibraryGenesis-main
 RUN pip install --no-cache-dir -r requirements.txt
 RUN mkdir -p /downloads
 
-
-
 EXPOSE 8003
 
 CMD [ "python", "./server.py" ]

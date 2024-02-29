@@ -13,7 +13,7 @@ s = LibgenSearch()
 if os.name == 'nt':
     readarrdownloaddir = "P:\\media\\watch\\"
 else:
-    readarrdownloaddir = "/downloads/watch/"
+    readarrdownloaddir = "/downloads/"
 
 """ 
 col_names = [
