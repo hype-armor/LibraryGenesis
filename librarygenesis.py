@@ -2,14 +2,18 @@ print("Loading...")
 
 from libgen_api import LibgenSearch
 import os.path
+import os
 import urllib.request
 import ssl
 from urllib.parse import unquote
 import json
 
 s = LibgenSearch()
-calibreimportdir = f"P:\media\calibre\import\\"
-readarrdownloaddir = f"P:\media\watch\\"
+
+if os.name == 'nt':
+    readarrdownloaddir = "P:\\media\\watch\\"
+else:
+    readarrdownloaddir = "/downloads/watch/"
 
 """ 
 col_names = [

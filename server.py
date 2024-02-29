@@ -9,7 +9,7 @@ import nbzget as nbzgetrss
 import nzbdownloader as NZBDownloader
 nzbdownloader = NZBDownloader.Downloader()
 
-HOSTNAME = "spaceheater"
+HOSTNAME = "0.0.0.0"
 SERVERPORT = 8003
 
 class MyServer(BaseHTTPRequestHandler):
