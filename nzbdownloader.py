@@ -12,22 +12,30 @@ import librarygenesis as LG
 import base64
 import xml.etree.ElementTree as ET
 import time
+import os
+import exceptions
+import shutil
 from slugify import slugify
 slug = slugify()
+
 
 class Downloader:
     """_summary_"""
 
     def __init__(self, dest_dir, final_dir) -> None:
         self.q = queue.Queue()
+        self.q_to_be_moved = queue.Queue()
         self.dest_dir = dest_dir
         self.final_dir = final_dir
         # Turn-on the worker thread.
         threading.Thread(target=self.worker, daemon=True).start()
+        threading.Thread(target=self.mover, daemon=True).start()
         self.list_groups = ListGroups.Root("1.1", "00000000", [])
         self.history = History.Root("1.1", "00000000", [])
         self.start_id = int(time.time())
 
+
+    
     def _set_id(self):
         self.start_id += 1
         return self.start_id
@@ -193,6 +201,52 @@ class Downloader:
             result.Status = status
         except Exception:
             print("ERR: failed to set status!")
+            
+    def mover(self):
+        print("started mover thread.")
+        while True:
+            item = self.q_to_be_moved.get()
+            result = self._get_result(self.history.result, item.NZBID)
+            if result.MoveStatus != "NONE":
+                time.sleep(5)
+                continue
+            
+            try:
+                if os.path.isdir(result.FinalDir):
+                    shutil.rmtree(result.FinalDir)
+                os.rename(result.DestDir, result.FinalDir)
+                
+            except PermissionError:
+                print(f"Access is denied {result.FinalDir}")
+                result.Health = result.Health -1
+                continue
+            except FileNotFoundError as e:
+                print(f"{e} Folder not found {result.FinalDir}")
+                result.Health = result.Health -1
+                continue
+            except FileExistsError as e:
+                print(e)
+                result.Health = result.Health -1
+                continue
+                
+            if result.Health <= 800:
+                result.Health = "FAILURE"
+                print("Unable to move dir to final location.")
+                self.q_to_be_moved.task_done()
+                time.sleep(5)
+                continue
+            
+            self.q_to_be_moved.task_done()
+            result.MoveStatus = "SUCCESS"
+            
+            print("Moved: {result.Name}")
+        
+    def _get_result(self, results, nzbid):
+        returnable = {}
+        for result in results:
+            if result.NZBID == nzbid:
+                returnable = result
+        return returnable
 
     def worker(self):
         """_summary_"""
@@ -200,22 +254,19 @@ class Downloader:
             # try:
             result = self.q.get()
             print(f"Working on {result.NZBName}")
-            rrs = {}
-            for rs in self.list_groups.result:
-                if rs.NZBID == result.NZBID:
-                    rrs = rs
-
+            rrs = self._get_result(self.list_groups.result, result.NZBID)
             self._set_status(rrs, "DOWNLOADING")
 
             # download that boi
             lgresult = LG.result(rrs)
             try:
                 lgresult.download()
-            except FailedToDownload:
+            except exceptions.FailedToDownload:
                 continue
             self._set_status(rrs, "DOWNLOADED")
             self.q.task_done()
             self.history.result.append(rrs)
+            self.q_to_be_moved.put(rrs)
             self.list_groups.result.remove(rrs)
             # except Exception as e:
             #print(f"ERR: {result.NZBName}")

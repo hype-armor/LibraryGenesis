@@ -10,15 +10,15 @@ import nzbdownloader as NZBDownloader
 import os
 
 if os.name == 'nt':
-    download_dir = "P:\\media\\watch\\"
-    incomplete_dir = download_dir + "incomplete\\books\\"
-    completed_dir = download_dir + "completed\\books\\"
+    DOWNLOAD_DIR = "P:\\media\\watch\\"
+    INCOMPLETE_DIR = DOWNLOAD_DIR + "incomplete\\books\\"
+    COMPLETED_DIR = DOWNLOAD_DIR + "completed\\books\\"
 else:
-    download_dir = "/downloads/"
-    incomplete_dir = download_dir + "incomplete/books/"
-    completed_dir = download_dir + "completed/books/"
+    DOWNLOAD_DIR = "/downloads/"
+    INCOMPLETE_DIR = DOWNLOAD_DIR + "incomplete/books/"
+    COMPLETED_DIR = DOWNLOAD_DIR + "completed/books/"
 
-nzbdownloader = NZBDownloader.Downloader(incomplete_dir, completed_dir)
+nzbdownloader = NZBDownloader.Downloader(INCOMPLETE_DIR, COMPLETED_DIR)
 
 HOSTNAME = "0.0.0.0"
 SERVERPORT = 8003

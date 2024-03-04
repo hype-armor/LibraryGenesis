@@ -8,6 +8,7 @@ import ssl
 from urllib.parse import unquote
 import json
 import time
+import exceptions
 from slugify import slugify
 slug = slugify()
 
@@ -103,7 +104,7 @@ def __init__():
         query = input("Please enter query: ")
         results = Search(query, Extension="pdf")
         # return top result(s) that matches for approval
-        for i in range(len(results)):
+        for i in enumerate(results):
             print("" + str(i) + " | ", end="")
             print(results[i]["Author"], end=" - ")
             print(results[i]["Title"], end=" (")
@@ -127,10 +128,6 @@ def __init__():
             if user_selection != "y":
                 continue
             break
-
-
-class FailedToDownload(Exception):
-    pass
 
 class result:
     def __init__(self, item) -> None:
@@ -162,8 +159,6 @@ class result:
         self.file_name = slug.run(item.NZBName) + '.' + self.extention
         self.file_path = self.item.DestDir + '/' + self.file_name
         self.progress = 0
-
-    
         
 
     def download(self):
@@ -204,23 +199,4 @@ class result:
             print("Failed to save: {str(self.file_path)}")
 
         print("Done!")
-        print("Moving to final dir")
-        for i in range(10):
-            try:
-                if os.path.isdir(self.item.FinalDir):
-                    os.rmdir(self.item.FinalDir)
-                #os.makedirs(self.item.FinalDir)
-                os.rename(self.item.DestDir, self.item.FinalDir)
-                break
-            except PermissionError:
-                print(f"Access is denied {self.item.FinalDir}")
-                time.sleep(5)
-            except FileNotFoundError as e:
-                print(f"{e} Folder not found {self.item.DestDir}")
-                time.sleep(5)
-            except FileExistsError as e:
-                print(e)
-            if i == 9:
-                raise FailedToDownload("Unable to move dir to final location.")
-
-        print("Done!")
+        
