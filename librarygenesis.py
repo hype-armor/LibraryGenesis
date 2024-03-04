@@ -7,34 +7,12 @@ import urllib.request
 import ssl
 from urllib.parse import unquote
 import json
+import time
+import exceptions
+from slugify import slugify
+slug = slugify()
 
 s = LibgenSearch()
-
-if os.name == 'nt':
-    readarrdownloaddir = "P:\\media\\watch\\"
-else:
-    readarrdownloaddir = "/downloads/"
-
-""" 
-col_names = [
-    "ID",
-    "Author",
-    "Title",
-    "Publisher",
-    "Year",
-    "Pages",
-    "Language",
-    "Size",
-    "Extension",
-    "Mirror_1",
-    "Mirror_2",
-    "Mirror_3",
-    "Mirror_4",
-    "Mirror_5",
-    "Edit",
-]
-"""
-
 
 class book:
     def __init__(
@@ -126,7 +104,7 @@ def __init__():
         query = input("Please enter query: ")
         results = Search(query, Extension="pdf")
         # return top result(s) that matches for approval
-        for i in range(len(results)):
+        for i in enumerate(results):
             print("" + str(i) + " | ", end="")
             print(results[i]["Author"], end=" - ")
             print(results[i]["Title"], end=" (")
@@ -151,33 +129,6 @@ def __init__():
                 continue
             break
 
-
-def slugify(value, allow_unicode=False):
-    import unicodedata
-    import re
-
-    """
-    Taken from https://github.com/django/django/blob/master/django/utils/text.py
-    Convert to ASCII if 'allow_unicode' is False. Convert spaces or repeated
-    dashes to single dashes. Remove characters that aren't alphanumerics,
-    underscores, or hyphens. Convert to lowercase. Also strip leading and
-    trailing whitespace, dashes, and underscores.
-    """
-    value = str(value).replace("%20", " ")
-    if allow_unicode:
-        value = unicodedata.normalize("NFKC", value)
-    else:
-        value = (
-            unicodedata.normalize("NFKD", value)
-            .encode("ascii", "ignore")
-            .decode("ascii")
-        )
-    value = re.sub(r"[^\w\s-]", " ", value)
-    value = value.replace("  ", " ")
-    return value
-    # return re.sub(r'[-\s]+', '-', value).strip('-_')
-
-
 class result:
     def __init__(self, item) -> None:
         self.item = item
@@ -198,20 +149,23 @@ class result:
         self.extention = self.urifilename.split(".")[-1]
 
         self.file_name = (
-            slugify(self.author)
+            slug.run(self.author)
             + "-"
-            + slugify(self.title)
+            + slug.run(self.title)
             + self.year
             + '.'
             + self.extention
         )
-        self.file_path = readarrdownloaddir + self.file_name
+        self.file_name = slug.run(item.NZBName) + '.' + self.extention
+        self.file_path = self.item.DestDir + '/' + self.file_name
         self.progress = 0
+        
 
     def download(self):
         print("Downloading....")
         if os.path.isfile(self.file_path):
             print("Already downloaded.")
+            self.progress = 100
             return
         
 
@@ -225,6 +179,9 @@ class result:
         #287985404
         print(self.item.FileSizeMB)
         #274
+        if os.path.isdir(self.item.DestDir):
+            os.remove(self.item.DestDir)
+        os.makedirs(self.item.DestDir)
         try:
             with open(self.file_path, "wb+") as f:
                 while True:
@@ -242,3 +199,4 @@ class result:
             print("Failed to save: {str(self.file_path)}")
 
         print("Done!")
+        

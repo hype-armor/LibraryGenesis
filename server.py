@@ -7,7 +7,18 @@ import xml.etree.ElementTree as ET
 import requests
 import nbzget as nbzgetrss
 import nzbdownloader as NZBDownloader
-nzbdownloader = NZBDownloader.Downloader()
+import os
+
+if os.name == 'nt':
+    DOWNLOAD_DIR = "P:\\media\\watch\\"
+    INCOMPLETE_DIR = DOWNLOAD_DIR + "incomplete\\books\\"
+    COMPLETED_DIR = DOWNLOAD_DIR + "completed\\books\\"
+else:
+    DOWNLOAD_DIR = "/downloads/"
+    INCOMPLETE_DIR = DOWNLOAD_DIR + "incomplete/books/"
+    COMPLETED_DIR = DOWNLOAD_DIR + "completed/books/"
+
+nzbdownloader = NZBDownloader.Downloader(INCOMPLETE_DIR, COMPLETED_DIR)
 
 HOSTNAME = "0.0.0.0"
 SERVERPORT = 8003
