@@ -3,8 +3,9 @@ import datetime
 import calendar
 import urllib.parse
 from threading import Thread
+from slugify import slugify
 
-
+slug = slugify()
 
 class action:
     def __init__(self):
@@ -33,7 +34,7 @@ class rss:
         channel_xml = self.Channel.Get_XML()
         r = self.xml + self.rss
         r += channel_xml
-        r += '</rss>'   
+        r += '</rss>'
         return r
         
     class channel:
@@ -98,15 +99,21 @@ class rss:
                 setattr(lgitem, 'comments', lgitem.mirror_1 or '')
                 setattr(lgitem, 'pubDate', date)
                 setattr(lgitem, 'category', 'Books > Ebook')
+                
+                # format author for readarr.
                 author = lgitem.author
                 if ' ' in lgitem.author:
-                    author = lgitem.author.split(' ')[1] + ', ' + lgitem.author.split(' ')[0]
-                setattr(lgitem, 'description', author + ' - ' + lgitem.title)
-                eurl = 'api?t=get&reallink=' + lgitem.mirror_1 + '&category=Books > Ebook&name1=' + lgitem.title + '&name2=' + lgitem.title + '&subject=' + lgitem.author + ' - ' + lgitem.title + '&size=' + str(int(str(lgitem.size).replace(" Mb", "").replace(" Kb", "")) * 1024)
+                    author = author.split(' ')[1] + ', ' + author.split(' ')[0]
+                    
+                setattr(lgitem, 'title', slug.run(author + ' - ' + lgitem.title))
+                setattr(lgitem, 'description', lgitem.title)
+                name2 = lgitem.title
+                
+                # this is the link that readarr sends to the downloader.
+                eurl = 'api?t=get&reallink=' + lgitem.mirror_1 + '&category=Books > Ebook&name1=' + lgitem.title + '&name2=' + name2 + '&subject=' + lgitem.title + '&size=' + str(int(str(lgitem.size).replace(" Mb", "").replace(" Kb", "")) * 1024)
                 eurl = urllib.parse.quote(eurl)
                 setattr(lgitem, 'enclosure_url', eurl)
-                # you were about to setup enclosure url to match the format of 
-                #http://192.168.0.141:8003/api?t=get&reallink=http://library.lol/main/F452F3B5B9E8F6E32C9D8603C4E59B99&category=books&name1=title&name2=title2&subject=titlesubject&size=23425616
+
                 setattr(lgitem, 'newznab_category1', "7000")
                 setattr(lgitem, 'newznab_category2', "7020")
                 # calc size
@@ -129,7 +136,7 @@ class rss:
             
         class item:
             def __init__(self, book):
-                self.title = book.description
+                self.title = book.title
                 self.guid = book.guid
                 self.link = book.link
                 self.comments = book.comments
@@ -152,6 +159,7 @@ class rss:
                 else:
                     self.quality = '(' + book.extension + ')'
                 self.nbzfilename = str(self.title) + ' ' + self.quality + '.nbz'
+
                 
             def Get_XML(self):
                 xtitle = '<title>' + str(self.title) + ' ' + self.quality + '</title>'
@@ -160,7 +168,7 @@ class rss:
                 xcomments = '<comments>' + str(self.comments) + '</comments>' # https://nzbgeek.info/geekseek.php?guid=be6daa29e818f47d52777ba15f15036a
                 xpubdate = '<pubDate>' + str(self.pubdate) + '</pubDate>' # Sun, 01 May 2022 15:30:18 +0000
                 xcategory = '<category>' + str(self.category) + '</category>' # Books > Ebook
-                xdescription = '<description>' + str(self.description) + '</description>' # James, E L - Fifty Shades 01 - Fifty Shades of Grey (retail)
+                xdescription = '<description>' + str(self.description) + ' ' + self.quality + '</description>' # James, E L - Fifty Shades 01 - Fifty Shades of Grey (retail)
                 xenclosure_url = '<enclosure url="' + str(self.enclosure_url) + '" length="' + str(self.newznab_size) + '" type="application/x-nzb"/>' # https://api.nzbgeek.info/api?t=get&amp;id=be6daa29e818f47d52777ba15f15036a&amp;apikey=O4Cf3uNQhti09MLGot5XlWAXM37E9nsa # 2414000
                 xnewznab_category1 = '<newznab:attr name="category" value="7000"/>'
                 xnewznab_category2 = '<newznab:attr name="category" value="7020"/>'
@@ -183,8 +191,10 @@ class nzb:
     def __init__(self, category='', name1='', name2='', subject='', size='', url=''): 
         self.category = category
         self.name1 = name1.replace('%20', ' ')
-        self.name2 = name2.replace('%20', '.').replace(' ', '.')
-        self.subject = 'Re: REQ: ' + name1 + '&quot;' + subject.replace('%20', ' ') + '&quot;'
+        # this is the title displayed in readarr's queue and the name of the file it looks for.
+        # this needs to contain author's name lastname, first name - title
+        self.name2 = name2.replace('%20', ' ')
+        self.subject = 'Re: REQ: ' + name1 + '&quot;' + name2 + '&quot;'
         self.size = size
         self.url = url
         self.dt=datetime.datetime.now()

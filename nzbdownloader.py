@@ -12,14 +12,16 @@ import librarygenesis as LG
 import base64
 import xml.etree.ElementTree as ET
 import time
-
+from slugify import slugify
+slug = slugify()
 
 class Downloader:
     """_summary_"""
 
-    def __init__(self) -> None:
+    def __init__(self, dest_dir, final_dir) -> None:
         self.q = queue.Queue()
-        self.DestDir = "/downloads/watch/"
+        self.dest_dir = dest_dir
+        self.final_dir = final_dir
         # Turn-on the worker thread.
         threading.Thread(target=self.worker, daemon=True).start()
         self.list_groups = ListGroups.Root("1.1", "00000000", [])
@@ -29,6 +31,16 @@ class Downloader:
     def _set_id(self):
         self.start_id += 1
         return self.start_id
+    
+    def trim_dir_path(self, path, max_length=70):
+        r = path
+        if len(path) > max_length:
+            r = path[:max_length]
+        if r[-1] == '.':
+            r = r[:-1]
+        r = r.strip()
+        return r
+        
 
     def append(self, nbzdatab64):
         """_summary_
@@ -39,10 +51,10 @@ class Downloader:
         nbzdata = base64.b64decode(nbzdatab64)
         # d1 = ET.fromstring(nbzdata)
         head = ET.fromstring(nbzdata)[0]
-        name2 = head[2].text
+        name1 = head[1].text
+        name2 = self.trim_dir_path(head[2].text)
         # d3 = ET.fromstring(nbzdata)[1][1]
         url = ET.fromstring(nbzdata)[1][1][0].text
-
         results = self.list_groups.result
         rid = self._set_id()
         param_drone = ListGroups.Parameter("drone", "d188d0297746457d8820ea655b47df42")
@@ -54,12 +66,17 @@ class Downloader:
         size_lo = 287985404
         size_hi = 0
         size_mb = 274
+        dest_dir = self.dest_dir + slug.run(name2)
+        dest_dir = self.trim_dir_path(dest_dir) + '#' + str(rid)
+        final_dir = self.final_dir + slug.run(name2)
+        final_dir = self.trim_dir_path(final_dir)
+        
         r = ListGroups.Result(
             Category="Books",
             CriticalHealth=898,
             DeleteStatus="NONE",
             Deleted=False,
-            DestDir=self.DestDir,
+            DestDir=dest_dir, # incomeplete dir
             DownloadTimeSec=0,
             DownloadedSizeHi=size_hi,
             DownloadedSizeLo=size_lo,
@@ -71,7 +88,7 @@ class Downloader:
             ExtraParBlocks=0,
             FailedArticles=0,
             FileCount=1,
-            FinalDir=(self.DestDir + name2),
+            FinalDir=final_dir, # completed dir
             Health=1000,
             Kind="NZB",
             Log=[],
@@ -192,7 +209,10 @@ class Downloader:
 
             # download that boi
             lgresult = LG.result(rrs)
-            lgresult.download()
+            try:
+                lgresult.download()
+            except FailedToDownload:
+                continue
             self._set_status(rrs, "DOWNLOADED")
             self.q.task_done()
             self.history.result.append(rrs)
