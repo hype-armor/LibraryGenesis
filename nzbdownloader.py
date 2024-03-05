@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 import time
 import os
 import exceptions
-import shutil
+import mover
 from slugify import slugify
 slug = slugify()
 
@@ -40,7 +40,7 @@ class Downloader:
         self.start_id += 1
         return self.start_id
     
-    def trim_dir_path(self, path, max_length=70):
+    def trim_dir_path(self, path, max_length=200):
         r = path
         if len(path) > max_length:
             r = path[:max_length]
@@ -177,7 +177,7 @@ class Downloader:
         for r in self.history.result:
             setattr(r, "ID", r.NZBID)
             setattr(r, "Name", r.NZBName)
-            setattr(r, "HistoryTime", 0)
+            #setattr(r, "HistoryTime", int(time.time()))
             setattr(r, "UrlStatus", "NONE")
         jsondata = vars(History.Root.from_dict(self.history))
         # set id
@@ -206,16 +206,18 @@ class Downloader:
         print("started mover thread.")
         while True:
             item = self.q_to_be_moved.get()
-            result = self._get_result(self.history.result, item.NZBID)
+            for i in range(5):
+                time.sleep(1)
+                result = self._get_result(self.history.result, item.NZBID)
+                if result == {}:
+                    continue
+                
             if result.MoveStatus != "NONE":
                 time.sleep(5)
                 continue
             
             try:
-                if os.path.isdir(result.FinalDir):
-                    shutil.rmtree(result.FinalDir)
-                os.rename(result.DestDir, result.FinalDir)
-                
+                mover.move(result.DestDir, result.FinalDir)
             except PermissionError:
                 print(f"Access is denied {result.FinalDir}")
                 result.Health = result.Health -1
@@ -239,7 +241,7 @@ class Downloader:
             self.q_to_be_moved.task_done()
             result.MoveStatus = "SUCCESS"
             
-            print("Moved: {result.Name}")
+            print(f"Moved: {result.NZBName}")
         
     def _get_result(self, results, nzbid):
         returnable = {}
@@ -251,25 +253,26 @@ class Downloader:
     def worker(self):
         """_summary_"""
         while True:
-            # try:
-            result = self.q.get()
-            print(f"Working on {result.NZBName}")
-            rrs = self._get_result(self.list_groups.result, result.NZBID)
-            self._set_status(rrs, "DOWNLOADING")
-
-            # download that boi
-            lgresult = LG.result(rrs)
             try:
+                result = self.q.get()
+                print(f"Working on {result.NZBName}")
+                rrs = self._get_result(self.list_groups.result, result.NZBID)
+                rrs.Status = "DOWNLOADING"
+                # download that boi
+                lgresult = LG.result(rrs)
                 lgresult.download()
+                rrs.Status = "DOWNLOADED"
+                self.q_to_be_moved.put(rrs)
             except exceptions.FailedToDownload:
+                rrs.Status = "FAILURE"
                 continue
-            self._set_status(rrs, "DOWNLOADED")
-            self.q.task_done()
-            self.history.result.append(rrs)
-            self.q_to_be_moved.put(rrs)
-            self.list_groups.result.remove(rrs)
-            # except Exception as e:
-            #print(f"ERR: {result.NZBName}")
-            #print(e)
-            # finally:
-            print(f"Finished {result.NZBName}")
+            except Exception as e:
+                rrs.Status = "FAILURE"
+                print(f"ERR: {result.NZBName}")
+                print(e)
+            finally:
+                self.q.task_done()
+                setattr(rrs, "HistoryTime", int(time.time()))
+                self.history.result.append(rrs)
+                self.list_groups.result.remove(rrs)
+                #print(f"Finished {result.NZBName}")
