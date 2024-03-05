@@ -174,14 +174,9 @@ class result:
         ctx.verify_mode = ssl.CERT_NONE
         response = urllib.request.urlopen(self.download_link, context=ctx)
         total_size = response.length
-        remaining_size = 20 #total_size
-        downloaded_size = 0
+        self.item.PausedSizeLo = 500 # this is needed to get progress to work.
         # set total size of download for self.item
-        # DownloadedSizeLo (int) - v14.0 Amount of downloaded data for group in bytes, Low 32-bits of 64-bit value.
-        # DownloadedSizeHi (int) - v14.0 Amount of downloaded data for group in bytes, High 32-bits of 64-bit value.
-        # DownloadedSizeMB (int) - v14.0 Amount of downloaded data for group in megabytes.
-        self.item.FileSizeLo = total_size# & 0x0000000000000FFF
-        #self.item.FileSizeMB = total_size / 1024
+        self.item.FileSizeLo = total_size
         if os.path.isdir(self.item.DestDir):
             os.remove(self.item.DestDir)
         os.makedirs(self.item.DestDir)
@@ -199,17 +194,9 @@ class result:
                     self.item.RemainingFileCount = 1000 - self.item.SuccessArticles
                     # set remaining size of download for self.item
                     f.write(chunk)
-                    remaining_size -= 1024
-                    downloaded_size += 1024
-                    self.item.PausedSizeLo = 500
+                    
                     self.item.RemainingSizeLo = total_size - int((self.progress / 100) * total_size)
-                    #self.item.RemainingSizeMB = int(remaining_size / 1024)
-                    #self.item.DownloadedSizeLo = downloaded_size
-                    #self.item.DownloadedSizeMB = int(downloaded_size / 1024)
-                    if self.progress % 5 == 0:
-                        print(f'progress: {self.progress}')
-                        #print(str(self.item.FileSizeLo / self.item.RemainingSizeLo))
-                        #print(str(self.item.RemainingSizeLo / self.item.FileSizeLo))
+                    
                 f.flush()
         except Exception as e:
             print(f"Failed to save: {e}")
