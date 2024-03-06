@@ -13,6 +13,7 @@ import base64
 import xml.etree.ElementTree as ET
 import time
 import os
+import uuid
 import exceptions
 import mover
 from slugify import slugify
@@ -30,6 +31,7 @@ class Downloader:
         # Turn-on the worker thread.
         threading.Thread(target=self.worker, daemon=True).start()
         threading.Thread(target=self.mover, daemon=True).start()
+        #threading.Thread(target=self.cleanup_history, daemon=True).start()
         self.list_groups = ListGroups.Root("1.1", "00000000", [])
         self.history = History.Root("1.1", "00000000", [])
         self.start_id = int(time.time())
@@ -65,8 +67,10 @@ class Downloader:
         url = ET.fromstring(nbzdata)[1][1][0].text
         results = self.list_groups.result
         rid = self._set_id()
-        param_drone = ListGroups.Parameter("drone", "d188d0297746457d8820ea655b47df42")
-        param_unpack = ListGroups.Parameter("Unpack:", "yes")
+        
+        uuid4 = str(uuid.uuid4()).replace('-', '')
+        param_drone = ListGroups.Parameter("drone", uuid4)
+        param_unpack = ListGroups.Parameter("Unpack:", "no")
         params = []
         params.append(param_drone)
         params.append(param_unpack)
@@ -187,7 +191,7 @@ class Downloader:
     def history_delete(self, id):
         # loop through history and find by id
         for item in self.history.result:
-            if item.ID == id:
+            if item.NZBID == id:
                 self.history.result.remove(item)
                 
     def group_final_delete(self, id):
@@ -242,6 +246,18 @@ class Downloader:
             result.MoveStatus = "SUCCESS"
             
             print(f"Moved: {result.NZBName}")
+            
+    def cleanup_history(self):
+        print('started history cleanup thread.')
+        while True:
+            for item in self.history.result:
+                diff = int(time.time()) - item.HistoryTime
+                if diff >= 31 and \
+                    item.Status == "DOWNLOADED" and item.MoveStatus == "SUCCESS":
+                    self.history_delete(item.NZBID)
+                    print(f'Deleted {item.NZBName}')
+            time.sleep(5)
+                    
         
     def _get_result(self, results, nzbid):
         returnable = {}
