@@ -1,6 +1,5 @@
 import os
 
-from sympy import true
 def delete(path):
     for path, directories, files in os.walk(path):
         for file in files:
