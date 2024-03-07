@@ -73,7 +73,7 @@ def Search(Title, Author="", Year="", Extension="", readarr=False):
     elif filters == None:
         results = s.search_title(Title)
     else:
-        results = s.search_filtered(Title, filters, exact_match=False)
+        results = s.search(Title)
 
     books = {}
     for result in results:
