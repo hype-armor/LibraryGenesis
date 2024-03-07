@@ -1,6 +1,6 @@
 print("Loading...")
 
-from libgen_api import LibgenSearch
+from libgen_api import LibgenSearch, SearchRequest, libgen_search
 import os.path
 import os
 import urllib.request
@@ -12,7 +12,22 @@ import exceptions
 from slugify import slugify
 slug = slugify()
 
-s = LibgenSearch()
+class LibgenSearcher(LibgenSearch):
+    def search(self, query):
+        search_request = SearchRequest(query)
+        return search_request.aggregate_request_data()
+    def search_filtered(self, query, filters, exact_match=True):
+        search_request = SearchRequest(query)
+        results = search_request.aggregate_request_data()
+        filtered_results = libgen_search.filter_results(
+            results=results, filters=filters, exact_match=exact_match
+        )
+        return filtered_results
+    
+    
+    
+s = LibgenSearcher()
+
 
 class book:
     def __init__(
@@ -73,7 +88,7 @@ def Search(Title, Author="", Year="", Extension="", readarr=False):
     elif filters == None:
         results = s.search_title(Title)
     else:
-        results = s.search(Title)
+        results = s.search_filtered(Title, filters, exact_match=False)
 
     books = {}
     for result in results:
