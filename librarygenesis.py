@@ -178,7 +178,17 @@ class result:
 
     def download(self):
         print("Downloading....")
-        if os.path.isfile(self.file_path):
+        
+        # keep *nix pathing.
+        if os.name == 'nt':
+            DOWNLOAD_DIR = "P:\\media\\"
+            INCOMPLETE_DIR = DOWNLOAD_DIR + "incomplete\\books\\"
+            COMPLETED_DIR = DOWNLOAD_DIR + "completed\\books\\"
+            file_path = self.file_path.replace("/downloads/incomplete/books/", INCOMPLETE_DIR).replace('/', '\\')
+            DestDir = self.item.DestDir.replace("/downloads/incomplete/books/", INCOMPLETE_DIR).replace('/', '\\')
+            FinalDir = self.item.FinalDir.replace("/downloads/completed/books/", COMPLETED_DIR).replace('/', '\\')
+        
+        if os.path.isfile(file_path):
             print("Already downloaded.")
             self.progress = 100
             return
@@ -192,11 +202,11 @@ class result:
         self.item.PausedSizeLo = 500 # this is needed to get progress to work.
         # set total size of download for self.item
         self.item.FileSizeLo = total_size
-        if os.path.isdir(self.item.DestDir):
-            os.remove(self.item.DestDir)
-        os.makedirs(self.item.DestDir)
+        if os.path.isdir(DestDir):
+            os.remove(DestDir)
+        os.makedirs(DestDir)
         try:
-            with open(self.file_path, "wb+") as f:
+            with open(file_path, "wb+") as f:
                 while True:
                     chunk = response.read(1024)
                     if not chunk:

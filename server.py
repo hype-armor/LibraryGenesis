@@ -10,7 +10,7 @@ import nzbdownloader as NZBDownloader
 import os
 
 if os.name == 'nt':
-    DOWNLOAD_DIR = "P:\\media\\watch\\"
+    DOWNLOAD_DIR = "P:\\media\\"
     INCOMPLETE_DIR = DOWNLOAD_DIR + "incomplete\\books\\"
     COMPLETED_DIR = DOWNLOAD_DIR + "completed\\books\\"
 else:
