@@ -1,4 +1,4 @@
-"""_summary_
+"""nzbdownloader
 
 Returns:
     _type_: _description_
@@ -28,6 +28,14 @@ class Downloader:
         self.q_to_be_moved = queue.Queue()
         self.dest_dir = dest_dir
         self.final_dir = final_dir
+        # keep *nix pathing.
+        if os.name == 'nt':
+            DOWNLOAD_DIR = "P:\\media\\"
+            INCOMPLETE_DIR = DOWNLOAD_DIR + "incomplete\\books\\"
+            COMPLETED_DIR = DOWNLOAD_DIR + "completed\\books\\"
+            self.dest_dir = dest_dir.replace(INCOMPLETE_DIR, "/downloads/incomplete/books/").replace('\\', '/')
+            self.final_dir = final_dir.replace(COMPLETED_DIR, "/downloads/completed/books/").replace('\\', '/')
+        
         # Turn-on the worker thread.
         threading.Thread(target=self.worker, daemon=True).start()
         threading.Thread(target=self.mover, daemon=True).start()
@@ -78,6 +86,9 @@ class Downloader:
         size_lo = 287985404
         size_hi = 0
         size_mb = 274
+        
+        
+            
         dest_dir = self.dest_dir + slug.run(name2)
         dest_dir = self.trim_dir_path(dest_dir) + '#' + str(rid)
         final_dir = self.final_dir + slug.run(name2)
@@ -253,7 +264,7 @@ class Downloader:
             for item in self.history.result:
                 diff = int(time.time()) - item.HistoryTime
                 if diff >= 31 and \
-                    item.Status == "DOWNLOADED" and item.MoveStatus == "SUCCESS":
+                    item.Status == "PP_FINISHED" and item.MoveStatus == "SUCCESS":
                     self.history_delete(item.NZBID)
                     print(f'Deleted {item.NZBName}')
             time.sleep(5)
@@ -277,7 +288,7 @@ class Downloader:
                 # download that boi
                 lgresult = LG.result(rrs)
                 lgresult.download()
-                rrs.Status = "DOWNLOADED"
+                rrs.Status = "PP_FINISHED"
                 self.q_to_be_moved.put(rrs)
             except exceptions.FailedToDownload:
                 rrs.Status = "FAILURE"
